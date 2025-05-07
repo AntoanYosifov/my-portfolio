@@ -1,13 +1,10 @@
-Param()
-$ErrorActionPreference = 'Stop'
-
-# 1. Build the site into public/
+# 1. Build the site
 hugo
 
-# 2. Go into the public/ folder
+# 2. Change into public/
 Push-Location public
 
-# 3. If gh-pages doesn’t exist, create it as an orphan
+# 3. Checkout or create gh-pages only
 if (-not (git show-ref --verify --quiet refs/heads/gh-pages)) {
     git checkout --orphan gh-pages
     git reset --hard
@@ -15,17 +12,20 @@ if (-not (git show-ref --verify --quiet refs/heads/gh-pages)) {
     git checkout gh-pages
 }
 
-# 4. Stage all files (your built site)
+# 4. Remove old files (optional but safe)
+git rm -rf .
+
+# 5. Copy in all the newly built files
 git add -A
 
-# 5. Commit with a timestamp
+# 6. Commit the new build
 $timestamp = (Get-Date).ToString("u")
 git commit -m "Deploy at $timestamp"
 
-# 6. Force-push to origin/gh-pages
+# 7. Push to gh-pages
 git push -f origin gh-pages
 
-# 7. Return to your source folder
+# 8. Return to your source folder (main branch)
 Pop-Location
 
 Write-Host "✅ Deployed to gh-pages!"
