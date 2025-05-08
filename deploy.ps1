@@ -2,51 +2,40 @@
 Param()
 $ErrorActionPreference = 'Stop'
 
-Write-Host "Building site…"
+Write-Host "Building site on main…"
 hugo
+if ($LASTEXITCODE -ne 0) { throw "Hugo build failed" }
 
-# Step into public/ for gh-pages work
-Push-Location public
-
-# Create or switch to gh-pages branch
-if (-not (git show-ref --verify --quiet refs/heads/gh-pages)) {
-    Write-Host "Creating orphan gh-pages branch"
-    git checkout --orphan gh-pages
-    git reset --hard
-} else {
-    Write-Host "Checking out gh-pages branch"
+# 1) Switch to gh-pages (in the root repo)
+Write-Host "Checking out gh-pages…"
+# Run git and suppress output
+& git rev-parse --verify gh-pages 2>$null
+if ($LASTEXITCODE -eq 0) {
+    Write-Host "gh-pages exists, checking out"
     git checkout gh-pages
+} else {
+    Write-Host "gh-pages not found, creating orphan"
+    git checkout --orphan gh-pages
 }
 
-# Clean out old files
+# 2) Clean out the old files (but keep .git)
 Write-Host "Cleaning old files…"
 git rm -rf .
 
-# Return to project root to rebuild
-Pop-Location
+# 3) Mirror public/ into the branch root
+Write-Host "Copying new build into place…"
+robocopy public . /MIR /XD .git
 
-# Rebuild fresh
-Write-Host "Rebuilding site…"
-hugo
-
-# Step back into public/ to commit the fresh build
-Push-Location public
-
-# Stage new build
-Write-Host "Staging new build…"
+# 4) Commit & push
+Write-Host "Staging & committing…"
 git add -A
-
-# Commit and push
 $ts = (Get-Date).ToString("u")
-Write-Host "Committing as 'Deploy at $ts'"
 git commit -m "Deploy at $ts"
-
 Write-Host "Pushing to origin/gh-pages…"
 git push -f origin gh-pages
 
-# Return to project root and main branch
-Pop-Location
-Write-Host "Switching back to main"
+# 5) Return to main
+Write-Host "Switching back to main…"
 git checkout main
 
-Write-Host "Deploy complete!"
+Write-Host "Deployment complete!"
