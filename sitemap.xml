@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://johndoe.dev/about/</loc>
+    <loc>https://antoanyosifov.github.io/my-portfolio/about/</loc>
     <lastmod>2023-03-15T10:30:00+05:30</lastmod>
   </url><url>
-    <loc>https://johndoe.dev/</loc>
+    <loc>https://antoanyosifov.github.io/my-portfolio/</loc>
     <lastmod>2023-03-15T10:30:00+05:30</lastmod>
   </url><url>
-    <loc>https://johndoe.dev/categories/</loc>
+    <loc>https://antoanyosifov.github.io/my-portfolio/categories/</loc>
   </url><url>
-    <loc>https://johndoe.dev/tags/</loc>
+    <loc>https://antoanyosifov.github.io/my-portfolio/tags/</loc>
   </url>
 </urlset>
