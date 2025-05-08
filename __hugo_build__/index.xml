@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Antoan Yosifov</title>
+    <link>https://johndoe.dev/</link>
+    <description>Recent content in Home on Antoan Yosifov</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Mar 2023 10:30:00 +0530</lastBuildDate>
+    <atom:link href="https://johndoe.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://johndoe.dev/about/</link>
+      <pubDate>Wed, 15 Mar 2023 10:30:00 +0530</pubDate>
+      <guid>https://johndoe.dev/about/</guid>
+      <description>&lt;p&gt;Hi, I’m &lt;strong&gt;Antoan Yosifov&lt;/strong&gt;, a software developer specializing in Backend Development, Y, and Z.&lt;br&gt;&#xA;Welcome to my portfolio!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
