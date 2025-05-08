@@ -15,5 +15,12 @@
       <guid>https://antoanyosifov.github.io/my-portfolio/about/</guid>
       <description>&lt;p&gt;Hi, I’m &lt;strong&gt;Antoan Yosifov&lt;/strong&gt;, a software developer specializing in Backend Development, Java, and Z.&lt;br&gt;&#xA;Welcome to my portfolio!&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Experience</title>
+      <link>https://antoanyosifov.github.io/my-portfolio/experience/</link>
+      <pubDate>Wed, 15 Mar 2023 10:30:00 +0530</pubDate>
+      <guid>https://antoanyosifov.github.io/my-portfolio/experience/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
