@@ -1,11 +1,9 @@
-baseURL = "https://antoanyosifov.github.io"
+baseURL = "https://antoanyosifov.github.io/my-portfolio/"
 languageCode = 'en-us'
 title = 'Antoan Yosifov'
 theme = 'hugo-noir'
 
 # URL handling
-relativeURLs = true
-canonifyURLs = true
 
 # Taxonomy configuration
 [taxonomies]
