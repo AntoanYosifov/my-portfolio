@@ -6,5 +6,5 @@ menu: "main"
 description: "Learn more about me and my background"
 ---
 
-Hi, I’m **Antoan Yosifov**, a software developer specializing in Backend Development, Y, and Z.  
+Hi, I’m **Antoan Yosifov**, a software developer specializing in Backend Development, Java, and Z.  
 Welcome to my portfolio!
