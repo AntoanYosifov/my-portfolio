@@ -1,44 +1,45 @@
-# deploy.ps1
+# deploy.ps1 (fixed order)
 Param()
 $ErrorActionPreference = 'Stop'
 
-Write-Host "🔨 Building site…"
-hugo
+Write-Host "⏪ Preparing gh-pages…"
 
-# Move into the public/ folder—this becomes the repo working directory for gh-pages
+# 1. Switch into public/, creating it if needed
 Push-Location public
 
-# Make sure we’re starting clean on gh-pages
 if (-not (git show-ref --verify --quiet refs/heads/gh-pages)) {
     Write-Host "✨ Creating orphan gh-pages branch"
     git checkout --orphan gh-pages
-    git reset --hard
 } else {
     Write-Host "⏪ Checking out gh-pages branch"
     git checkout gh-pages
 }
 
-# Remove any old files so we only have the new build
+# 2. Clean out old build
 Write-Host "🧹 Cleaning old files…"
 git rm -rf .
 
-# Copy the new build into place
+Pop-Location
+
+# 3. Build fresh into public/
+Write-Host "🔨 Building site…"
+hugo
+
+# 4. Copy the new build into public/ on gh-pages branch
+Push-Location public
+
 Write-Host "📦 Staging new build…"
 git add -A
 
-# Commit the changes
+# 5. Commit & push
 $ts = (Get-Date).ToString("u")
 Write-Host "📝 Committing as 'Deploy at $ts'"
 git commit -m "Deploy at $ts"
-
-# Push to GitHub
-Write-Host "⬆️  Pushing to origin/gh-pages…"
+Write-Host "⬆️ Pushing to origin/gh-pages…"
 git push -f origin gh-pages
 
-# Return to your source folder
 Pop-Location
 
-# Ensure we’re on main for further work
+# 6. Back to main
 git checkout main
-
 Write-Host "✅ Deployed to gh-pages and back on main!"
