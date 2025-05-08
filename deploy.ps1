@@ -2,13 +2,17 @@
 Param()
 $ErrorActionPreference = 'Stop'
 
-# 1) Build on main
-Write-Host "Building site on main…"
-hugo
-if ($LASTEXITCODE -ne 0) { throw "Hugo build failed" }
+# 1) Build Hugo into a temporary directory
+$buildDir = Join-Path $PSScriptRoot "__hugo_build__"
+Write-Host "Building site into temporary folder..."
+Remove-Item $buildDir -Recurse -Force -ErrorAction SilentlyContinue
+hugo --destination $buildDir
+if ($LASTEXITCODE -ne 0) {
+    throw "Hugo build failed"
+}
 
-# 2) Switch root repo to gh-pages
-Write-Host "Checking out gh-pages…"
+# 2) Switch the root repo to gh-pages
+Write-Host "Checking out gh-pages branch..."
 & git rev-parse --verify gh-pages 2>$null
 if ($LASTEXITCODE -eq 0) {
     git checkout gh-pages
@@ -16,8 +20,8 @@ if ($LASTEXITCODE -eq 0) {
     git checkout --orphan gh-pages
 }
 
-# 3) Clean root (keep .git)
-Write-Host "Cleaning old files (except .git)…"
+# 3) Remove all existing files except .git
+Write-Host "Cleaning old files (except .git)..."
 Get-ChildItem -Force | Where-Object Name -NotIn '.git' | ForEach-Object {
     if ($_.PSIsContainer) {
         Remove-Item $_.FullName -Recurse -Force
@@ -26,20 +30,23 @@ Get-ChildItem -Force | Where-Object Name -NotIn '.git' | ForEach-Object {
     }
 }
 
-# 4) Copy fresh build
-Write-Host "Copying public/ → branch root…"
-Copy-Item -Path (Join-Path $PSScriptRoot 'public\*') -Destination $PSScriptRoot -Recurse -Force
+# 4) Copy new build from temp directory
+Write-Host "Copying new build into branch root..."
+Copy-Item -Path (Join-Path $buildDir '*') -Destination $PSScriptRoot -Recurse -Force
 
-# 5) Commit & push
-Write-Host "Staging & committing…"
+# 5) Commit and push to gh-pages
+Write-Host "Staging and committing changes..."
 git add -A
-$ts = (Get-Date).ToString("u")
-git commit -m "Deploy at $ts"
-Write-Host "Pushing to origin/gh-pages…"
+$timestamp = (Get-Date).ToString("u")
+git commit -m "Deploy at $timestamp"
+Write-Host "Pushing to origin/gh-pages..."
 git push -f origin gh-pages
 
-# 6) Return to main
-Write-Host "Returning to main…"
+# 6) Switch back to main
+Write-Host "Switching back to main branch..."
 git checkout main
 
-Write-Host "Deployment complete!"
+# 7) Clean up temp build directory
+Remove-Item $buildDir -Recurse -Force -ErrorAction SilentlyContinue
+
+Write-Host "Deployment complete."
