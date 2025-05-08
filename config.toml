@@ -260,17 +260,17 @@ url = "about/"
 weight = 1
 [[menu.main]]
 name = "Experience"
-url = "/experience/"
+url = "experience/"
 weight = 2
 [[menu.main]]
 name = "Projects"
-url = "/projects/"
+url = "projects/"
 weight = 3
 [[menu.main]]
 name = "Blogs"
-url = "/blogs/"
+url = "blogs/"
 weight = 4
 [[menu.main]]
 name = "Contact Me"
-url = "/contact/"
+url = "contact/"
 weight = 5
