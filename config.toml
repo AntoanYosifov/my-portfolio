@@ -4,7 +4,7 @@ title = 'Antoan Yosifov'
 theme = 'hugo-noir'
 
 # URL handling
-
+relativeURLs = true
 # Taxonomy configuration
 [taxonomies]
 category = "categories"
@@ -256,7 +256,7 @@ description = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem ac
 [menu]
 [[menu.main]]
 name = "About"
-url = "/about/"
+url = "about/"
 weight = 1
 [[menu.main]]
 name = "Experience"
