@@ -13,16 +13,16 @@ tag = "tags"
 [params]
 name = "Antoan Yosifov"
 location = "Aschach an der Donau, Austria"
-description = "Java Developer. Aspiring astrophysicist, mathematician, and “astronaut” (aka Full‑Stack Engineer)—because that’s apparently what today’s internships, junior roles, or positions demand."
+description = "Java Developer. Aspiring astrophysicist, mathematician, and “astronaut” (aka Full‑Stack Engineer)—because that’s apparently what today’s internships and junior roles demand."
 profile_image = "/images/profile.jpg"
-tools = ["Java"]
+
 
 # contact/social
 email = "antoan.yosifov23@gmail.com"
 
 twitter_username = "johndoe123"
 linkedin = "https://www.linkedin.com/in/antoan-yosifov-b1b52026b"
-linkedin_username = "antoan yosifov"
+linkedin_username = "Antoan Yosifov"
 github             = "https://github.com/AntoanYosifov"
 github_username    = "AntoanYosifov"
 medium_username = "johndoe123"
@@ -103,19 +103,53 @@ image = "/images/projects/BrainDissecting.png"
 link = "https://github.com/AntoanYosifov/BrainDissecting-SSR-version"
 liveLink = "https://braindissecting-ssr-version-production.up.railway.app/"
 
-# …repeat [[params.projects]] for the rest…
 
-[[params.blogs]]
-title = "Lorem Ipsum Systems"
-date = "2025-03-15"
-summary = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem."
-tags = ["Lorem", "Ipsum", "Dolor"]
-content = """
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit...
-"""
-link = "https://medium.com/@loremipsum/lorem-systems"
+[[params.education]]
+title = "Software University (SoftUni) Sofia (Bulgaria)"
+image = "/images/education/uni-logo.png"
+mainLink = "https://softuni.org/"
+altLink = "https://softuni.bg/"
 
-# …repeat [[params.blogs]] for the rest…
+[[params.education]]
+title = "JS Front-End February 2025"
+image = "/images/education/js-front-end.jpeg"
+certificateLink = "https://softuni.bg/certificates/details/242308/50b3144d"
+
+[[params.education]]
+title = "HTML & CSS January 2025"
+image = "/images/education/html&css.jpeg"
+certificateLink = "https://softuni.bg/certificates/details/238004/e3c7f8e7"
+
+[[params.education]]
+title = "Spring Fundamentals May 2024"
+image = "/images/education/spring-fundamentals.jpeg"
+certificateLink = "https://softuni.bg/certificates/details/242308/50b3144d"
+
+[[params.education]]
+title = "Spring Data February 2024"
+image = "/images/education/spring-data.jpeg"
+certificateLink = "https://softuni.bg/certificates/details/209296/601d2151"
+
+[[params.education]]
+title = "MySQL January 2024"
+image = "/images/education/my-sql.jpeg"
+certificateLink = "https://softuni.bg/certificates/details/202712/c0eb046a"
+
+[[params.education]]
+title = "Java OOP October 2023"
+image = "/images/education/java-oop.jpeg"
+certificateLink = "https://softuni.bg/certificates/details/200860/2cb65e96"
+
+[[params.education]]
+title = "Java Advanced September 2023"
+image = "/images/education/java-advanced.jpeg"
+certificateLink = "https://softuni.bg/certificates/details/188586/ac6687dc"
+
+[[params.education]]
+title = "Java Fudnamentals May 2023"
+image = "/images/education/java-fundamentals.jpeg"
+certificateLink = "https://softuni.bg/certificates/details/179830/b9a08faf"
+
 
 [[params.voluntary]]
 role = "Community Lead"
@@ -140,8 +174,8 @@ url = "/projects/"
 weight = 3
 
 [[menu.main]]
-name = "Blogs"
-url = "/blogs/"
+name = "Education"
+url = "/education/"
 weight = 4
 
 [[menu.main]]

@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="w-full md:w-3/4 lg:w-1/2 mx-auto px-4 py-12">
     <h1 class="text-3xl md:text-5xl font-bold mb-8 md:mb-12">{{ .Title }}</h1>
-    {{ range .Site.Params.projects }}
+    {{ range .Site.Params.education }}
     <div class="grid grid-cols-1 gap-6 md:gap-8 max-w-3xl mx-auto">
 
         <div class="project-card relative overflow-hidden rounded-lg bg-[#121212] border border-gray-700 transition-all duration-300 group">
@@ -21,27 +21,36 @@
                     </div>
                     <p class="hidden md:block text-sm text-gray-300 mb-3 line-clamp-3 md:line-clamp-4">{{ .description }}</p>
 
-                    <!-- Learn More button -->
-                    <a href="{{ .link }}" target="_blank" class="bg-white/90 backdrop-blur-sm hover:bg-white text-black text-xs md:text-sm font-medium py-1 md:py-1.5 px-2 md:px-3 rounded-md inline-block transition-all duration-300 transform opacity-100 md:opacity-0 group-hover:opacity-100 w-fit flex items-center shadow-lg hover:shadow-xl">
-                        Learn More
+                    {{ with .mainLink}}
+                    <a href="{{ . }}" target="_blank" class="bg-white/90 backdrop-blur-sm hover:bg-white text-black text-xs md:text-sm font-medium py-1 md:py-1.5 px-2 md:px-3 rounded-md inline-block transition-all duration-300 transform opacity-100 md:opacity-0 group-hover:opacity-100 w-fit flex items-center shadow-lg hover:shadow-xl">
+                        SoftUni International
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 ml-1 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                         </svg>
                     </a>
-                    {{ with .liveLink}}
+                    {{ end }}
+                    {{ with .altLink}}
                     <a href="{{ . }}" target="_blank" class="bg-white/90 backdrop-blur-sm hover:bg-white text-black text-xs md:text-sm font-medium py-1 md:py-1.5 px-2 md:px-3 rounded-md inline-block transition-all duration-300 transform opacity-100 md:opacity-0 group-hover:opacity-100 w-fit flex items-center shadow-lg hover:shadow-xl">
-                        View Live On Railway
+                        SoftUni Bulgaria
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 ml-1 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
+                    </a>
+                    {{ end }}
+                    {{ with .certificateLink}}
+                    <a href="{{ . }}" target="_blank" class="bg-white/90 backdrop-blur-sm hover:bg-white text-black text-xs md:text-sm font-medium py-1 md:py-1.5 px-2 md:px-3 rounded-md inline-block transition-all duration-300 transform opacity-100 md:opacity-0 group-hover:opacity-100 w-fit flex items-center shadow-lg hover:shadow-xl">
+                        View Credentials
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 ml-1 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                         </svg>
                     </a>
                     {{ end }}
                 </div>
-                </div>
             </div>
         </div>
-        {{ end }}
     </div>
+    {{ end }}
+</div>
 
 
 <style>
