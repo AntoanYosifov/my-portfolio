@@ -319,10 +319,10 @@
             <h2 class="text-4xl font-bold">Education</h2>
         </div>
         <div class="space-y-8 max-w-3xl mx-auto">
-            {{ range first 3 .Site.Params.education }}
+            {{ range first 1 .Site.Params.education }}
             <div class="group">
                 <p class="text-gray-400 text-sm mb-1">{{ .date }}</p>
-                <a href="{{ .link }}" class="block group" target="_blank">
+                <a href="{{ .mainLink }}" class="block group" target="_blank">
                     <h3 class="text-xl font-medium text-blue-400 hover:text-blue-300 transition-colors duration-200 mb-2">{{ .title }}</h3>
                 </a>
                 <p class="text-gray-400">{{ .summary }}</p>
@@ -330,7 +330,7 @@
             {{ end }}
         </div>
         <div class="flex justify-center mt-8">
-            <a href="/blogs" class="text-blue-500 hover:text-blue-400 transition-colors duration-200 text-lg">View All</a>
+            <a href="/education" class="text-blue-500 hover:text-blue-400 transition-colors duration-200 text-lg">View All</a>
         </div>
     </section>
 </div>
