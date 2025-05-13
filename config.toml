@@ -13,7 +13,7 @@ tag = "tags"
 [params]
 name = "Antoan Yosifov"
 location = "Aschach an der Donau, Austria"
-description = "AI Developer. ML Engineer. I finetune models, build scalable pipelines and automate workflows."
+description = "Java Developer. Aspiring astrophysicist, mathematician, and “astronaut” (aka Full‑Stack Engineer)—because that’s apparently what today’s internships, junior roles, or positions demand."
 profile_image = "/images/profile.jpg"
 tools = ["Java"]
 
@@ -54,63 +54,54 @@ date = "March 2024"
 url = "https://example.com/cert-gcp"
 
 [[params.experience]]
-company = "Lorem Technologies"
-role = "AI Research Engineer"
-period = "Jan 2023 - Dec 2023"
-logo = "/images/company/lorem.png"
-description = "Ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore."
-responsibilities = [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    "Ut enim ad minim veniam, quis nostrud exercitation",
-    "Duis aute irure dolor in reprehenderit in voluptate",
-    "Excepteur sint occaecat cupidatat non proident"
-]
-
-[[params.experience]]
-company = "Ipsum Solutions"
-role = "Machine Learning Engineer"
-period = "Jun 2022 - Dec 2022"
+company = "JobPilot"
+role = "Full Stack Developer"
+period = "Feb 2025 - Present"
 logo = "/images/company/ipsum.png"
-description = "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+description = "JobPilot: an AI‑powered job‑seeking and application‑tracking web app with resume analysis and automated recommendations."
 responsibilities = [
-    "Sed ut perspiciatis unde omnis iste natus error",
-    "Nemo enim ipsam voluptatem quia voluptas sit",
-    "At vero eos et accusamus et iusto odio dignissimos",
-    "Et harum quidem rerum facilis est et expedita"
+    "Architecting and implementing RESTful APIs in JavaSpringBoot",
+    "Building responsive Angular frontend with mobile‑first design",
+    "Integrating AI‑powered resume parsing using NLP libraries",
+    "Developing application progress tracking and status dashboards",
+    "Configuring user authentication and role management with Spring Security",
+    "Containerizing application with Docker for multi‑environment deployment",
+    "Writing unit and integration tests with JUnit5, Mockito, and Karma/Jasmine"
 ]
 
 [[params.experience]]
-company = "Dolor Analytics"
-role = "Data Scientist"
-period = "Jan 2022 - May 2022"
-logo = "/images/company/dolor.png"
-description = "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit."
+company = "Brain Dissecting"
+role = "Java Backend Developer"
+period = "Aug 2024 - Jan 2025"
+logo = "/images/company/lorem.png"
+description = "BrainDissecting: a Java21 + SpringBoot web app for discovering and moderating open‑access scientific articles via the DOAJ API."
 responsibilities = [
-    "Nam libero tempore, cum soluta nobis est eligendi",
-    "Temporibus autem quibusdam et aut officiis debitis",
-    "Itaque earum rerum hic tenetur a sapiente delectus"
+    "Integrated DOAJ API for dynamic retrieval of scientific articles",
+    "Configured role‑based access control with Spring Security",
+    "Developed Thymeleaf/Bootstrap frontend views and user workflows",
+    "Wrote comprehensive unit and integration tests with JUnit5 and Spring Security Test",
+    "Dockerized services and deployed to Railway (formerly GCP Cloud Run)",
 ]
 
-[[params.experience]]
-company = "Sit Amet Corp"
-role = "Open Source Contributor"
-period = "2021 - Present"
-description = "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse."
-github_username = "loremipsum"
+
+
+
 
 [[params.projects]]
-title = "Project Consectetur"
-description = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
-tech = "Python, TensorFlow, Docker, Redis"
-image = "/images/projects/consectetur.png"
-link = "https://github.com/loremipsum/consectetur"
+title = "JobPilot"
+description =  "An AI‑driven job application tracker that analyzes your resume, recommends openings, and visualizes application progress on a responsive dashboard."
+tech = "CURRENT: ,Java21, SpringBoot, SpringSecurity , PostgreSQL, COMING: , Angular, NLP (spaCy), Docker, Railway, JUnit5, Mockito, Karma/Jasmine"
+image = "/images/projects/jobPilot.png"
+link = "https://github.com/AntoanYosifov/jobpilot"
+
 
 [[params.projects]]
-title = "Adipiscing Platform"
-description = "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur."
-tech = "React, Node.js, MongoDB, AWS"
-image = "/images/projects/adipiscing.png"
-link = "https://github.com/loremipsum/adipiscing"
+title = "BrainDissecting"
+description = "A web platform that aggregates, moderates, and curates open‑access scientific articles via the DOAJ API, with built‑in role‑based access control for admins, moderators, and users."
+tech = "Java21, SpringBoot3.3.2, Spring Security, Spring Data JPA, Hibernate/JPA, Thymeleaf, Bootstrap5, DOAJ API, MySQL, Docker, Railway (Cloud)"
+image = "/images/projects/BrainDissecting.png"
+link = "https://github.com/AntoanYosifov/BrainDissecting-SSR-version"
+liveLink = "https://braindissecting-ssr-version-production.up.railway.app/"
 
 # …repeat [[params.projects]] for the rest…
 
