@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "Antoan Yosifov"
 theme = "hugo-noir"
 
-# use relative URLs so paths like "/images/…" resolve correctly on GitHub Pages
 relativeURLs = true
 
 [taxonomies]
@@ -25,23 +24,6 @@ linkedin = "https://www.linkedin.com/in/antoan-yosifov-b1b52026b"
 linkedin_username = "Antoan Yosifov"
 github             = "https://github.com/AntoanYosifov"
 github_username    = "AntoanYosifov"
-medium_username = "johndoe123"
-instagram_username = "johndoe123"
-leetcode_username = "johndoe123"
-monkeytype_username = "johndoe123"
-kaggle_username = "johndoe123"
-
-
-
-[[params.honors]]
-institution = "Generic College"
-title = "Academic Topper"
-date = "March 2023"
-
-[[params.honors]]
-institution = "Valley High Academy"
-title = "Outstanding Achievement in STEM"
-date = "May 2018"
 
 [[params.certifications]]
 title = "Azure AI Engineering Specialist"
@@ -150,12 +132,6 @@ title = "Java Fudnamentals May 2023"
 image = "/images/education/java-fundamentals.jpeg"
 certificateLink = "https://softuni.bg/certificates/details/179830/b9a08faf"
 
-
-[[params.voluntary]]
-role = "Community Lead"
-organization = "Lorem Foundation"
-period = "2020 - Present"
-description = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
 
 [menu]
 [[menu.main]]
