@@ -16,18 +16,18 @@
       <description>&lt;p&gt;Hi, I’m &lt;strong&gt;Antoan Yosifov&lt;/strong&gt;, a software developer specializing in Backend Development, Java, and Z.&lt;br&gt;&#xA;Welcome to my portfolio!&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Blogs</title>
-      <link>https://antoanyosifov.github.io/my-portfolio/blogs/</link>
-      <pubDate>Wed, 15 Mar 2023 10:30:00 +0530</pubDate>
-      <guid>https://antoanyosifov.github.io/my-portfolio/blogs/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Contact Me</title>
       <link>https://antoanyosifov.github.io/my-portfolio/contact/</link>
       <pubDate>Wed, 15 Mar 2023 10:30:00 +0530</pubDate>
       <guid>https://antoanyosifov.github.io/my-portfolio/contact/</guid>
       <description>&lt;p&gt;You can reach out any time and I’ll get back within 24 hours!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Education</title>
+      <link>https://antoanyosifov.github.io/my-portfolio/education/</link>
+      <pubDate>Wed, 15 Mar 2023 10:30:00 +0530</pubDate>
+      <guid>https://antoanyosifov.github.io/my-portfolio/education/</guid>
+      <description></description>
     </item>
     <item>
       <title>Experience</title>
