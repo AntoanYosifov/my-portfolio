@@ -93,6 +93,11 @@ mainLink = "https://softuni.org/"
 altLink = "https://softuni.bg/"
 
 [[params.education]]
+title = "Angular June 2025"
+image = "/images/education/angular.jpeg"
+certificateLink = "https://softuni.bg/certificates/details/250024/b150a58a"
+
+[[params.education]]
 title = "Git May 2025"
 image = "/images/education/git.jpeg"
 certificateLink = "https://softuni.bg/certificates/details/247012/89c53d18"
