@@ -7,10 +7,12 @@ layout: "about"
 description: "Learn more about me and my background"
 ---
 
-Hi, I’m Antoan Yosifov, a software developer specializing in backend development (Java/Spring), with a strong interest in mastering front-end technologies. I recently shipped BrainDissecting, a web platform designed for discovering and moderating scientific articles, and I’m currently developing JobPilot, an innovative AI-powered job application tracker. Soon, I'll be diving into Angular to sharpen my front-end skills, further expanding my capabilities as a full-stack developer.
+Hi, I’m Antoan Yosifov—a backend-leaning software developer (Java/Spring) who cares about clean, readable code and reliable systems, and who’s actively growing into full-stack with Angular/TypeScript.
 
-My journey into software development reflects dedication and resilience: for two years, I balanced a full-time job while studying programming intensively during evenings at Software University (SoftUni). During this challenging yet enriching period, I received an offer for a promotion at work, but I chose instead to leave that secure position behind in pursuit of my true passion—coding and software development.
+My projects show that arc. BrainDissecting was my first app: a server-side rendered Java/Spring site that integrates with the DOAJ API to surface and moderate scientific articles—no custom REST layer, just solid SSR and integration work. Then came TravelHub, my second app: an Angular + Firebase real-time app with auth, ownership rules, one-like-per-user, and a responsive, reactive UI. Same builder, broader stack.
 
-Today, alongside continuous learning and project development, I am committed to mastering the German language—another demanding but rewarding journey that highlights my dedication to personal and professional growth. Navigating both language acquisition and complex programming concepts simultaneously underscores my drive and ability to manage significant challenges effectively.
+I’m currently working full-time while studying in SoftUni (Bulgaria)’s 3-year Software Engineering Academy—a well-regarded, in-depth program in Europe—graduating December 2025. I’ve maintained full scores across modules, from fundamentals (what a variable is, how memory works, complexity basics) through OOP, SOLID, databases, testing, and architecture. In short: fundamentals first, craft second.
 
-I firmly believe in perseverance and hard work. My story so far has taught me that determination and genuine passion pave the way to success. I’m confident that I will achieve my goals—I simply need the opportunity to demonstrate my potential.
+On the personal side, I’ve been living in Austria for 3 years, working full-time throughout. I’m actively improving my German, integrating here, and plan to build—and grow old—here.
+
+I’m ready for my first professional developer role. Bring me a backlog and a codebase; I’ll bring focus, energy, and shipped features—with tests and documentation. (The “junior” is just the job title.)

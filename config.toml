@@ -12,8 +12,8 @@ tag = "tags"
 [params]
 name = "Antoan Yosifov"
 location = "Aschach an der Donau, Austria"
-description = "Java Developer. Aspiring astrophysicist, mathematician, and “astronaut” (aka Full‑Stack Engineer)—because that’s apparently what today’s internships and junior roles demand."
-profile_image = "/images/profile.jpg"
+description = "Hands-on Java dev with Spring Boot, Angular, and databases. Junior title, senior attitude toward quality."
+profile_image = "/images/profile.png"
 
 
 # contact/social
@@ -36,24 +36,24 @@ date = "March 2024"
 url = "https://example.com/cert-gcp"
 
 [[params.experience]]
-company = "JobPilot"
-role = "Full Stack Developer"
-period = "Feb 2025 - Present"
+company = "TravelHub"
+role = "Angular Developer"
+period = "Jul 2025 - Sep 2025"
 logo = "/images/company/ipsum.png"
-description = "JobPilot: an AI‑powered job‑seeking and application‑tracking web app with resume analysis and automated recommendations."
+description = "TravelHub: an interactive travel discovery app using Angular (Signals/RxJS) and Firebase—implementing auth & profiles, ownership rules, real-time likes, and personal “want-to-visit” lists; deployed to GitHub Pages."
 responsibilities = [
-    "Architecting and implementing RESTful APIs in JavaSpringBoot",
-    "Building responsive Angular frontend with mobile‑first design",
-    "Integrating AI‑powered resume parsing using NLP libraries",
-    "Developing application progress tracking and status dashboards",
-    "Configuring user authentication and role management with Spring Security",
-    "Containerizing application with Docker for multi‑environment deployment",
-    "Writing unit and integration tests with JUnit5, Mockito, and Karma/Jasmine"
+    "Architecting a real-time SPA with Angular (Signals/RxJS) and mobile-first responsive UI",
+    "Modeling Firestore data and authoring Security Rules (ownership, one-like-per-user)",
+    "Implementing Firebase Auth with profiles and route guards (guest/auth)",
+    "Creating reusable core services (e.g., AuthenticationService, DestinationsService)",
+    "Optimizing performance with lazy loading, streamlined change detection, and code splitting",
+    "Deploying via GitHub Pages with CI/CD and environment-based configuration",
+    "Maintaining UX polish: animations and clear empty/error states"
 ]
 
 [[params.experience]]
 company = "Brain Dissecting"
-role = "Java Backend Developer"
+role = "Java Developer"
 period = "Aug 2024 - Jan 2025"
 logo = "/images/company/lorem.png"
 description = "BrainDissecting: a Java21 + SpringBoot web app for discovering and moderating open‑access scientific articles via the DOAJ API."
@@ -65,16 +65,13 @@ responsibilities = [
     "Dockerized services and deployed to Railway (formerly GCP Cloud Run)",
 ]
 
-
-
-
-
 [[params.projects]]
-title = "JobPilot"
-description =  "An AI‑driven job application tracker that analyzes your resume, recommends openings, and visualizes application progress on a responsive dashboard."
-tech = "CURRENT: ,Java21, SpringBoot, SpringSecurity , PostgreSQL, COMING: , Angular, NLP (spaCy), Docker, Railway, JUnit5, Mockito, Karma/Jasmine"
-image = "/images/projects/jobPilot.png"
-link = "https://github.com/AntoanYosifov/jobpilot"
+title = "TravelHub"
+description =  "TravelHub is a real-time travel app built with Angular and Firebase where users discover destinations, like each once, and save a personal “want-to-visit” list. Secure auth, profile management, and ownership rules power a smooth, reactive UI."
+tech = "Angular (Signals), TypeScript, RxJS, HTML, CSS, Firebase — Firestore, Authentication, GitHub Pages"
+image = "/images/projects/TravelHub.png"
+link = "https://github.com/AntoanYosifov/travel-hub"
+liveLink = "https://antoanyosifov.github.io/travel-hub/"
 
 
 [[params.projects]]
