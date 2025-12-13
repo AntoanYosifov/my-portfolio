@@ -1,4 +1,4 @@
-baseURL = "https://antoanyosifov.github.io/my-portfolio/"
+baseURL = "https://antoanyosifov.com"
 languageCode = "en-us"
 title = "Antoan Yosifov"
 theme = "hugo-noir"
