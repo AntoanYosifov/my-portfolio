@@ -19,51 +19,10 @@ profile_image = "/images/profile.png"
 # contact/social
 email = "antoan.yosifov23@gmail.com"
 
-twitter_username = "johndoe123"
 linkedin = "https://www.linkedin.com/in/antoan-yosifov-b1b52026b"
 linkedin_username = "Antoan Yosifov"
 github             = "https://github.com/AntoanYosifov"
 github_username    = "AntoanYosifov"
-
-[[params.certifications]]
-title = "Azure AI Engineering Specialist"
-date = "Dec 2024"
-url = "https://example.com/cert-azure"
-
-[[params.certifications]]
-title = "Google Cloud ML Professional"
-date = "March 2024"
-url = "https://example.com/cert-gcp"
-
-[[params.experience]]
-company = "TravelHub"
-role = "Angular Developer"
-period = "Jul 2025 - Sep 2025"
-logo = "/images/company/ipsum.png"
-description = "TravelHub: an interactive travel discovery app using Angular (Signals/RxJS) and Firebase—implementing auth & profiles, ownership rules, real-time likes, and personal “want-to-visit” lists; deployed to GitHub Pages."
-responsibilities = [
-    "Architecting a real-time SPA with Angular (Signals/RxJS) and mobile-first responsive UI",
-    "Modeling Firestore data and authoring Security Rules (ownership, one-like-per-user)",
-    "Implementing Firebase Auth with profiles and route guards (guest/auth)",
-    "Creating reusable core services (e.g., AuthenticationService, DestinationsService)",
-    "Optimizing performance with lazy loading, streamlined change detection, and code splitting",
-    "Deploying via GitHub Pages with CI/CD and environment-based configuration",
-    "Maintaining UX polish: animations and clear empty/error states"
-]
-
-[[params.experience]]
-company = "Brain Dissecting"
-role = "Java Developer"
-period = "Aug 2024 - Jan 2025"
-logo = "/images/company/lorem.png"
-description = "BrainDissecting: a Java21 + SpringBoot web app for discovering and moderating open‑access scientific articles via the DOAJ API."
-responsibilities = [
-    "Integrated DOAJ API for dynamic retrieval of scientific articles",
-    "Configured role‑based access control with Spring Security",
-    "Developed Thymeleaf/Bootstrap frontend views and user workflows",
-    "Wrote comprehensive unit and integration tests with JUnit5 and Spring Security Test",
-    "Dockerized services and deployed to Railway (formerly GCP Cloud Run)",
-]
 
 [[params.projects]]
 title = "TravelHub"
@@ -142,16 +101,6 @@ certificateLink = "https://softuni.bg/certificates/details/179830/b9a08faf"
 
 [menu]
 [[menu.main]]
-name = "About"
-url = "/about/"
-weight = 1
-
-[[menu.main]]
-name = "Experience"
-url = "/experience/"
-weight = 2
-
-[[menu.main]]
 name = "Projects"
 url = "/projects/"
 weight = 3
@@ -160,8 +109,3 @@ weight = 3
 name = "Education"
 url = "/education/"
 weight = 4
-
-[[menu.main]]
-name = "Contact Me"
-url = "/contact/"
-weight = 5
