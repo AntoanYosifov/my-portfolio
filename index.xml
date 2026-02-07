@@ -13,7 +13,7 @@
       <link>https://antoanyosifov.com/about/</link>
       <pubDate>Wed, 15 Mar 2023 10:30:00 +0530</pubDate>
       <guid>https://antoanyosifov.com/about/</guid>
-      <description>&lt;p&gt;Hi, I’m Antoan Yosifov—a backend-leaning software developer (Java/Spring) who cares about clean, readable code and reliable systems, and who’s actively growing into full-stack with Angular/TypeScript.&lt;/p&gt;&#xA;&lt;p&gt;My projects show that arc. BrainDissecting was my first app: a server-side rendered Java/Spring site that integrates with the DOAJ API to surface and moderate scientific articles—no custom REST layer, just solid SSR and integration work. Then came TravelHub, my second app: an Angular + Firebase real-time app with auth, ownership rules, one-like-per-user, and a responsive, reactive UI. Same builder, broader stack.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hi, I’m Antoan Yosifov — a Junior Software Engineer, backend-leaning by default (Java/Spring, databases), and actively growing into full-stack with TypeScript/Angular.&lt;/p&gt;&#xA;&lt;p&gt;Over the last three years I’ve been based in Austria, working full-time while completing SoftUni’s Software Engineering program and consistently achieving high grades across modules. That combination taught me something recruiters don’t see in a tech stack: steady execution under pressure and deadlines — adapting to a new country, improving my German, and still shipping projects.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact Me</title>
@@ -27,13 +27,6 @@
       <link>https://antoanyosifov.com/education/</link>
       <pubDate>Wed, 15 Mar 2023 10:30:00 +0530</pubDate>
       <guid>https://antoanyosifov.com/education/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Experience</title>
-      <link>https://antoanyosifov.com/experience/</link>
-      <pubDate>Wed, 15 Mar 2023 10:30:00 +0530</pubDate>
-      <guid>https://antoanyosifov.com/experience/</guid>
       <description></description>
     </item>
     <item>
