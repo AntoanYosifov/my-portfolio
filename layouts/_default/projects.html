@@ -3,7 +3,7 @@
     <div class="mb-0"></div>
     <section id="house-of-chaos" class="mb-6 md:mb-8">
     <div class="grid grid-cols-1 gap-6 md:gap-8 max-w-3xl mx-auto">
-            <p class="block md:hidden text-sm text-gray-300 mb-2">
+            <p class="block md:hidden text-sm text-gray-300 mb-1">
                 House of Chaos is a full stack antique e-commerce platform with an Angular SPA, Spring Boot REST API, and a dedicated reviews microservice. Secure JWT auth, role-based access, and Cloudinary-powered media keep the experience fast and reliable.
             </p>
             <div class="project-card relative overflow-hidden rounded-lg bg-[#121212] border border-gray-700 transition-all duration-300 group">
@@ -26,11 +26,6 @@
                         <p class="hidden md:block text-sm text-gray-300 mb-3 line-clamp-3 md:line-clamp-4">
                             House of Chaos is a full stack antique e-commerce platform with an Angular SPA, Spring Boot REST API, and a dedicated reviews microservice. Secure JWT auth, role-based access, and Cloudinary-powered media keep the experience fast and reliable.
                         </p>
-                        <ul class="capstone-mini-list text-sm text-gray-200 mb-3">
-                            <li>Angular SPA + Spring Boot REST API</li>
-                            <li>Reviews microservice, JWT auth, MySQL</li>
-                            <li>Cloudinary media pipeline + admin workflows</li>
-                        </ul>
                         <div class="capstone-details-links-row capstone-details-links-row--hoc">
                             <a href="https://github.com/AntoanYosifov/house-of-chaos-main" target="_blank" rel="noopener noreferrer" class="capstone-repo-link capstone-repo-link--compact">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="capstone-repo-icon" viewBox="0 0 24 24" aria-hidden="true">
@@ -74,7 +69,7 @@
     <div class="flex flex-col max-w-3xl mx-auto">
         {{ range .Site.Params.projects }}
         <div class="project-card-spacing project-anchor" id="project-{{ .title | urlize }}">
-            <p class="block md:hidden text-sm text-gray-300 mb-2">{{ .description }}</p>
+            <p class="block md:hidden text-sm text-gray-300 mb-1">{{ .description }}</p>
         <div class="project-card relative overflow-hidden rounded-lg bg-[#121212] border border-gray-700 transition-all duration-300 group">
             <div class="aspect-w-16 aspect-h-9 overflow-hidden relative">
                 <div class="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 z-10"></div>
