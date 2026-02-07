@@ -1,14 +1,81 @@
 {{ define "main" }}
 <div class="w-full md:w-3/4 lg:w-1/2 mx-auto px-4 py-12">
-    <h1 class="text-3xl md:text-5xl font-bold mb-8 md:mb-12">{{ .Title }}</h1>
-    {{ range .Site.Params.projects }}
-    <div class="grid grid-cols-1 gap-6 md:gap-8 max-w-3xl mx-auto">
+    <div class="mb-0"></div>
+    <section id="house-of-chaos" class="mb-6 md:mb-8">
+        <div class="grid grid-cols-1 gap-6 md:gap-8 max-w-3xl mx-auto">
+            <div class="project-card relative overflow-hidden rounded-lg bg-[#121212] border border-gray-700 transition-all duration-300 group">
+                <div class="aspect-w-16 aspect-h-9 overflow-hidden relative">
+                    <div class="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 z-10"></div>
+                    <img src="/images/projects/HoC.png" alt="House of Chaos" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-70 z-20"></div>
 
-        <div class="project-card relative overflow-hidden rounded-lg bg-[#121212] border border-gray-700 transition-all duration-300 group">
-            <div class="aspect-w-16 aspect-h-9 overflow-hidden relative">
-                <div class="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 z-10"></div>
-                <img src="{{ .image }}" alt="{{ .title }}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-60 z-20"></div>
+                    <div class="absolute inset-0 z-30 p-4 pb-3 md:p-6 md:pb-4 flex flex-col justify-end transform transition-transform duration-500 translate-y-0 group-hover:translate-y-[-20px]">
+                        <h3 class="text-xl md:text-2xl font-bold mb-1.5 md:mb-2 text-white line-clamp-2">House of Chaos</h3>
+                        <p class="text-xs md:text-sm text-blue-200/90 uppercase tracking-wide mb-2">Full stack antique e-commerce platform</p>
+                        <div class="flex flex-wrap gap-1 md:gap-2 mb-1.5 md:mb-3">
+                            <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100">Angular</span>
+                            <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100">Spring Boot</span>
+                            <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100">REST API</span>
+                            <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100">MySQL</span>
+                            <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100">JWT</span>
+                            <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100">Cloudinary</span>
+                        </div>
+                        <p class="text-sm text-gray-300 mb-3 line-clamp-3 md:line-clamp-4">
+                            House of Chaos is a full stack antique e-commerce platform with an Angular SPA, Spring Boot REST API, and a dedicated reviews microservice. Secure JWT auth, role-based access, and Cloudinary-powered media keep the experience fast and reliable.
+                        </p>
+                        <ul class="capstone-mini-list text-sm text-gray-200 mb-3">
+                            <li>Angular SPA + Spring Boot REST API</li>
+                            <li>Reviews microservice, JWT auth, MySQL</li>
+                            <li>Cloudinary media pipeline + admin workflows</li>
+                        </ul>
+                        <div class="capstone-details-links-row">
+                            <a href="https://github.com/AntoanYosifov/house-of-chaos-main" target="_blank" rel="noopener noreferrer" class="capstone-repo-link capstone-repo-link--compact">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="capstone-repo-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path fill="currentColor" d="M12 1.75a10.25 10.25 0 0 0-3.24 19.98c.52.1.72-.22.72-.5v-1.73c-2.94.64-3.56-1.26-3.56-1.26c-.48-1.22-1.17-1.55-1.17-1.55c-.96-.66.07-.65.07-.65c1.06.07 1.62 1.1 1.62 1.1c.95 1.63 2.5 1.16 3.11.89c.1-.69.37-1.16.67-1.43c-2.35-.27-4.82-1.17-4.82-5.2c0-1.15.41-2.1 1.09-2.84c-.11-.27-.47-1.35.1-2.82c0 0 .88-.28 2.88 1.08a9.9 9.9 0 0 1 5.24 0c2-1.36 2.88-1.08 2.88-1.08c.57 1.47.21 2.55.1 2.82c.68.74 1.09 1.69 1.09 2.84c0 4.04-2.47 4.93-4.83 5.2c.38.33.72.98.72 1.98v2.94c0 .28.2.6.72.5A10.25 10.25 0 0 0 12 1.75Z"/>
+                                </svg>
+                                HoC Backend
+                                <svg xmlns="http://www.w3.org/2000/svg" class="capstone-link-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M14 5h5v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 14L19 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M19 14v5H5V5h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/AntoanYosifov/house-of-chaos-web" target="_blank" rel="noopener noreferrer" class="capstone-repo-link capstone-repo-link--compact">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="capstone-repo-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path fill="currentColor" d="M12 1.75a10.25 10.25 0 0 0-3.24 19.98c.52.1.72-.22.72-.5v-1.73c-2.94.64-3.56-1.26-3.56-1.26c-.48-1.22-1.17-1.55-1.17-1.55c-.96-.66.07-.65.07-.65c1.06.07 1.62 1.1 1.62 1.1c.95 1.63 2.5 1.16 3.11.89c.1-.69.37-1.16.67-1.43c-2.35-.27-4.82-1.17-4.82-5.2c0-1.15.41-2.1 1.09-2.84c-.11-.27-.47-1.35.1-2.82c0 0 .88-.28 2.88 1.08a9.9 9.9 0 0 1 5.24 0c2-1.36 2.88-1.08 2.88-1.08c.57 1.47.21 2.55.1 2.82c.68.74 1.09 1.69 1.09 2.84c0 4.04-2.47 4.93-4.83 5.2c.38.33.72.98.72 1.98v2.94c0 .28.2.6.72.5A10.25 10.25 0 0 0 12 1.75Z"/>
+                                </svg>
+                                HoC Frontend
+                                <svg xmlns="http://www.w3.org/2000/svg" class="capstone-link-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M14 5h5v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 14L19 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M19 14v5H5V5h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/AntoanYosifov/review-microservice" target="_blank" rel="noopener noreferrer" class="capstone-repo-link capstone-repo-link--compact">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="capstone-repo-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path fill="currentColor" d="M12 1.75a10.25 10.25 0 0 0-3.24 19.98c.52.1.72-.22.72-.5v-1.73c-2.94.64-3.56-1.26-3.56-1.26c-.48-1.22-1.17-1.55-1.17-1.55c-.96-.66.07-.65.07-.65c1.06.07 1.62 1.1 1.62 1.1c.95 1.63 2.5 1.16 3.11.89c.1-.69.37-1.16.67-1.43c-2.35-.27-4.82-1.17-4.82-5.2c0-1.15.41-2.1 1.09-2.84c-.11-.27-.47-1.35.1-2.82c0 0 .88-.28 2.88 1.08a9.9 9.9 0 0 1 5.24 0c2-1.36 2.88-1.08 2.88-1.08c.57 1.47.21 2.55.1 2.82c.68.74 1.09 1.69 1.09 2.84c0 4.04-2.47 4.93-4.83 5.2c.38.33.72.98.72 1.98v2.94c0 .28.2.6.72.5A10.25 10.25 0 0 0 12 1.75Z"/>
+                                </svg>
+                                Microservice
+                                <svg xmlns="http://www.w3.org/2000/svg" class="capstone-link-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M14 5h5v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 14L19 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M19 14v5H5V5h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="flex flex-col max-w-3xl mx-auto">
+        {{ range .Site.Params.projects }}
+        <div class="project-card-spacing project-anchor" id="project-{{ .title | urlize }}">
+            <div class="project-card relative overflow-hidden rounded-lg bg-[#121212] border border-gray-700 transition-all duration-300 group">
+                <div class="aspect-w-16 aspect-h-9 overflow-hidden relative">
+                    <div class="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 z-10"></div>
+                    <img src="{{ .image }}" alt="{{ .title }}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-60 z-20"></div>
 
                 <!-- Content that moves up on hover -->
                 <div class="absolute inset-0 z-30 p-4 pb-3 md:p-6 md:pb-4 flex flex-col justify-end transform transition-transform duration-500 translate-y-0 group-hover:translate-y-[-20px]">
@@ -21,21 +88,29 @@
                     </div>
                     <p class="hidden md:block text-sm text-gray-300 mb-3 line-clamp-3 md:line-clamp-4">{{ .description }}</p>
 
-                    <!-- Learn More button -->
-                    <a href="{{ .link }}" target="_blank" class="bg-white/90 backdrop-blur-sm hover:bg-white text-black text-xs md:text-sm font-medium py-1 md:py-1.5 px-2 md:px-3 rounded-md inline-block transition-all duration-300 transform opacity-100 md:opacity-0 group-hover:opacity-100 w-fit flex items-center shadow-lg hover:shadow-xl">
-                        Learn More
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 ml-1 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                        </svg>
-                    </a>
-                    {{ with .liveLink}}
-                    <a href="{{ . }}" target="_blank" class="bg-white/90 backdrop-blur-sm hover:bg-white text-black text-xs md:text-sm font-medium py-1 md:py-1.5 px-2 md:px-3 rounded-md inline-block transition-all duration-300 transform opacity-100 md:opacity-0 group-hover:opacity-100 w-fit flex items-center shadow-lg hover:shadow-xl">
-                        View Live Site
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 ml-1 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                        </svg>
-                    </a>
-                    {{ end }}
+                    <div class="capstone-details-links-row">
+                        <a href="{{ .link }}" target="_blank" class="capstone-repo-link capstone-repo-link--compact">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="capstone-repo-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor" d="M12 1.75a10.25 10.25 0 0 0-3.24 19.98c.52.1.72-.22.72-.5v-1.73c-2.94.64-3.56-1.26-3.56-1.26c-.48-1.22-1.17-1.55-1.17-1.55c-.96-.66.07-.65.07-.65c1.06.07 1.62 1.1 1.62 1.1c.95 1.63 2.5 1.16 3.11.89c.1-.69.37-1.16.67-1.43c-2.35-.27-4.82-1.17-4.82-5.2c0-1.15.41-2.1 1.09-2.84c-.11-.27-.47-1.35.1-2.82c0 0 .88-.28 2.88 1.08a9.9 9.9 0 0 1 5.24 0c2-1.36 2.88-1.08 2.88-1.08c.57 1.47.21 2.55.1 2.82c.68.74 1.09 1.69 1.09 2.84c0 4.04-2.47 4.93-4.83 5.2c.38.33.72.98.72 1.98v2.94c0 .28.2.6.72.5A10.25 10.25 0 0 0 12 1.75Z"/>
+                            </svg>
+                            Source Code
+                            <svg xmlns="http://www.w3.org/2000/svg" class="capstone-link-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <path d="M14 5h5v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10 14L19 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19 14v5H5V5h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        {{ with .liveLink}}
+                        <a href="{{ . }}" target="_blank" class="capstone-repo-link capstone-repo-link--compact">
+                            Live Demo
+                            <svg xmlns="http://www.w3.org/2000/svg" class="capstone-link-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <path d="M14 5h5v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10 14L19 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19 14v5H5V5h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        {{ end }}
+                    </div>
                 </div>
                 </div>
             </div>
@@ -59,6 +134,16 @@
         transform: translateY(-5px);
         box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
         border-color: rgba(59, 130, 246, 0.5);
+    }
+
+    .project-card-spacing + .project-card-spacing {
+        margin-top: 2rem;
+    }
+
+    @media (min-width: 768px) {
+        .project-card-spacing + .project-card-spacing {
+            margin-top: 2.5rem;
+        }
     }
 
     .aspect-w-16 {
@@ -86,6 +171,87 @@
         .project-card .group-hover\:translate-y-\[-20px\] {
             transform: translateY(-10px);
         }
+    }
+
+    .capstone-details-links-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.75rem;
+    }
+
+
+    .capstone-repo-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        padding: 0.4rem 0.75rem;
+        border-radius: 0.6rem;
+        border: 1px solid rgba(59, 130, 246, 0.45);
+        background: rgba(59, 130, 246, 0.12);
+        color: #dbeafe;
+        font-size: 0.95rem;
+        transition: all 0.2s ease;
+        text-decoration: none;
+    }
+
+    .capstone-repo-link:hover {
+        border-color: rgba(96, 165, 250, 0.8);
+        background: rgba(59, 130, 246, 0.2);
+        color: #ffffff;
+        transform: translateY(-1px);
+    }
+
+    .capstone-repo-icon {
+        width: 16px;
+        height: 16px;
+        color: #ffffff;
+        flex-shrink: 0;
+    }
+
+    .capstone-link-arrow {
+        width: 16px;
+        height: 16px;
+        color: #e5e7eb;
+        opacity: 1;
+        transition: transform 0.2s ease;
+    }
+
+    .capstone-repo-link:hover .capstone-link-arrow {
+        transform: translateX(3px);
+    }
+
+    .capstone-mini-list {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 0.75rem 0;
+    }
+
+    .capstone-mini-list li {
+        position: relative;
+        padding-left: 1rem;
+        margin-bottom: 0.35rem;
+        color: #e2e8f0;
+    }
+
+    .capstone-mini-list li::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: #60a5fa;
+    }
+
+    .capstone-repo-link--compact {
+        font-size: 0.85rem;
+        padding: 0.35rem 0.6rem;
+    }
+
+    .project-anchor {
+        scroll-margin-top: 90px;
+    }
+
+    #house-of-chaos {
+        scroll-margin-top: 120px;
     }
 </style>
 {{ end }}

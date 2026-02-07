@@ -12,12 +12,13 @@ tag = "tags"
 [params]
 name = "Antoan Yosifov"
 location = "Aschach an der Donau, Austria"
-description = "Junior engineer with strong fundamentals and real project experience in Java/Spring/Angular."
+description = "Junior engineer with strong fundamentals and real project experience in Java | Spring | Angular"
 profile_image = "/images/profile.png"
 
 
 # contact/social
 email = "antoan.yosifov23@gmail.com"
+cv = "/files/Antoan_Yosifov_CV.pdf"
 
 linkedin = "https://www.linkedin.com/in/antoan-yosifov-b1b52026b"
 linkedin_username = "Antoan Yosifov"
@@ -43,60 +44,266 @@ liveLink = "https://braindissecting-ssr-version-production.up.railway.app/"
 
 
 [[params.education]]
-title = "Software University (SoftUni) Sofia (Bulgaria)"
+title = "Software University"
 image = "/images/education/uni-logo.png"
 mainLink = "https://softuni.org/"
 altLink = "https://softuni.bg/"
+program = "Back-End Software Engineer with Java"
+status = "6.00/6.00"
+timeline = "February 2023 - December 2025"
+programFocus = "Developing strong practical skills in problem solving, data structures, algorithms, functional programming, OOP, and clean code while specializing in modern Java and Java EE web development with Spring, REST services, JPA/Hibernate, SQL, and cloud tooling. Worked across front-end foundations (HTML, CSS, JavaScript), databases, and team workflows with Git and GitHub."
+diplomaLink = "https://softuni.bg/certificates/details/256028/f7f77274"
+diplomaCurriculumMain = [
+    "Programming Fundamentals — 57 hours — Grade 6.00",
+    "Java Advanced — 24 hours — Grade 6.00",
+    "Java OOP — 43 hours — Grade 6.00",
+    "Spring Data — 36 hours — Grade 6.00",
+    "Spring Fundamentals — 28 hours — Grade 6.00",
+    "Spring Advanced — 36 hours — Grade 6.00",
+    "JS Front-End — 32 hours — Grade 6.00",
+    "MySQL — 21 hours — Grade 6.00",
+    "Programming Basics — 17 hours — Grade 6.00",
+    "HTML & CSS — 15 hours — Grade 6.00"
+]
+diplomaCurriculumAdditional = [
+    "Git — 15 hours — Grade 6.00",
+    "Angular — 28 hours — Grade 6.00",
+    "IT Career Booster — 18 hours — Grade 6.00"
+]
+highlights = [
+    "Top grades across modules",
+    "Built and deployed real end-to-end web projects"
+]
+
+[[params.professionalModules]]
+title = "Fundamentals"
+description = "Working with basic syntax, conditional statements and loops, data types and variables. Using Git and GitHub; HTTP basics; arrays, methods, lists, and text processing. Introduction to objects and classes, associative arrays, bitwise operations, regular expressions, and structured problem solving. Basics of HTML & CSS, database fundamentals, QA introduction, and a basic web project."
+
+[[params.professionalModules]]
+title = "Java Advanced and OOP"
+description = "Working with linear data structures, multidimensional arrays, and associative collections. Streams, files, and directories; functional programming; defining classes; generics; iterators and comparators. Object-oriented programming: abstraction, encapsulation, inheritance, interfaces, and polymorphism; applying SOLID principles. Reflection and annotations, exceptions and error handling, unit testing, test-driven development, and design patterns."
+
+[[params.professionalModules]]
+title = "Databases and ORM"
+description = "Relational database fundamentals with MySQL: data definition and datatypes, CRUD operations, built-in functions, aggregation, table relations, subqueries and JOINs, programmability, and transactions. ORM and persistence: Hibernate introduction, Code First mapping, Spring Data fundamentals, advanced querying, and object mapping; JSON and XML processing for data exchange."
+
+[[params.professionalModules]]
+title = "Web Development"
+description = "HTTP protocol and web fundamentals; Spring Core and Spring MVC; Spring Boot + MVC; server-side rendering with Thymeleaf; state management; events, scheduling tasks, and caching. Building REST APIs with Spring; Spring Security; microservice architecture; exception handling; unit testing, integration testing, and API testing; aspect-oriented programming; introduction to cloud and messaging with Spring for Apache Kafka."
+
+[[params.specializedCourses]]
+title = "HTML & CSS"
+description = "Building responsive web pages with semantic HTML and modern CSS. Working with the box model, typography, positioning, and layout techniques (Flexbox). Styling forms and creating clean, consistent UI with a focus on responsive design and cross-device presentation."
+
+[[params.specializedCourses]]
+title = "JS Front-End"
+description = "JavaScript fundamentals for the browser: arrays and strings, functions, objects and classes. DOM manipulation and event handling for interactive UI. Working with HTTP and REST APIs, asynchronous programming, and client-side logic for dynamic, data-driven front-end applications."
+
+[[params.specializedCourses]]
+title = "Git"
+description = "Working with Git fundamentals and efficient branching workflows. Applying effective branch management, resolving merge conflicts, and maintaining clean history. Managing work-in-progress and restoring changes (e.g., stashing/reset/revert), plus automation and best practices with Git UI tools."
+
+[[params.specializedCourses]]
+title = "Angular"
+description = "Building single-page applications with Angular and TypeScript. Working with components and dependency injection, services, and RxJS basics. Structuring apps with modules, routing, and signals; building forms and validation. Using pipes and interceptors, subjects, and applying state management patterns."
+
+[[params.education]]
+title = "Spring Advanced October 2025"
+image = "/images/education/spring-advanced-1.jpg"
+certificateLink = "https://softuni.bg/certificates/details/254386/2059f98a"
+description = "Advanced Spring framework course covering security, REST APIs, microservices architecture, testing, and cloud integration."
+curriculum = [
+    "Spring Security",
+    "REST API and REST with Spring",
+    "Microservice Architecture",
+    "Exception Handling",
+    "Unit Testing",
+    "Integration and API Testing",
+    "Aspect Oriented Programming",
+    "Introduction to Cloud",
+    "Spring for Apache Kafka"
+]
 
 [[params.education]]
 title = "Angular June 2025"
-image = "/images/education/angular.jpeg"
+image = "/images/education/angular-1.jpg"
 certificateLink = "https://softuni.bg/certificates/details/250024/b150a58a"
+description = "Comprehensive Angular course covering modern Angular development with components, services, routing, forms, and state management."
+curriculum = [
+    "Intro to Angular and TypeScript",
+    "Components",
+    "DI, Intro to RxJS and Services",
+    "Modules, Signals and Routing",
+    "Forms",
+    "Pipes, Interceptors and Subjects",
+    "State Management"
+]
 
 [[params.education]]
 title = "Git May 2025"
-image = "/images/education/git.jpeg"
+image = "/images/education/git-1.jpg"
 certificateLink = "https://softuni.bg/certificates/details/247012/89c53d18"
+description = "Version control mastery with Git, covering branch management, merge conflicts, and best practices for collaborative development."
+curriculum = [
+    "Introduction to Git and First Steps",
+    "Effective Branch Management in Git",
+    "Managing Merge Conflicts and Git History",
+    "Managing Work in Progress and Restoring Changes in Git",
+    "Automation, Best Practices, and Git UI Tools"
+]
 
 [[params.education]]
 title = "JS Front-End February 2025"
-image = "/images/education/js-front-end.jpeg"
+image = "/images/education/js-front-end-1.jpg"
 certificateLink = "https://softuni.bg/certificates/details/242308/50b3144d"
+description = "JavaScript fundamentals for front-end development, covering syntax, DOM manipulation, HTTP/REST, and asynchronous programming."
+curriculum = [
+    "JS Syntax Fundamentals",
+    "JS Arrays & Strings",
+    "Functions and Statements",
+    "Object and Classes",
+    "DOM Introduction",
+    "DOM Manipulation and Events",
+    "HTTP and REST",
+    "Asynchronous Programming"
+]
 
 [[params.education]]
 title = "HTML & CSS January 2025"
-image = "/images/education/html&css.jpeg"
+image = "/images/education/html&css-1.jpg"
 certificateLink = "https://softuni.bg/certificates/details/238004/e3c7f8e7"
+description = "Foundational web development course covering HTML structure, CSS styling, flexbox layout, and responsive design principles."
+curriculum = [
+    "Introduction to HTML & CSS",
+    "CSS Box Model and Typography",
+    "CSS Layout - Flexbox",
+    "Responsive Web Design",
+    "Working with Forms"
+]
 
 [[params.education]]
 title = "Spring Fundamentals May 2024"
-image = "/images/education/spring-fundamentals.jpeg"
-certificateLink = "https://softuni.bg/certificates/details/242308/50b3144d"
+image = "/images/education/spring-fundamentals-1.jpg"
+certificateLink = "https://softuni.bg/certificates/details/219341/b8f4359a"
+description = "Introduction to Spring framework covering core concepts, MVC architecture, Thymeleaf templating, and state management."
+curriculum = [
+    "HTTP Protocol",
+    "Spring Core",
+    "Spring MVC",
+    "Exercise: Spring Boot and Spring MVC",
+    "Spring MVC with Thymeleaf",
+    "State Management",
+    "Events, Scheduling Tasks and Caching"
+]
 
 [[params.education]]
 title = "Spring Data February 2024"
-image = "/images/education/spring-data.jpeg"
+image = "/images/education/spring-data-1.jpg"
 certificateLink = "https://softuni.bg/certificates/details/209296/601d2151"
+description = "Spring Data and Hibernate course covering ORM fundamentals, JPA, advanced querying, and data processing with JSON/XML."
+curriculum = [
+    "DB Apps Introduction",
+    "ORM Fundamentals",
+    "Introduction to Hibernate",
+    "Hibernate Code First",
+    "Spring Data Intro",
+    "Spring Data Advanced Querying",
+    "Spring Data Auto Mapping Objects",
+    "JSON Processing",
+    "XML Processing"
+]
 
 [[params.education]]
 title = "MySQL January 2024"
-image = "/images/education/my-sql.jpeg"
+image = "/images/education/my-sql-1.jpg"
 certificateLink = "https://softuni.bg/certificates/details/202712/c0eb046a"
+description = "Comprehensive MySQL database course covering data definition, CRUD operations, aggregations, relationships, and transactions."
+curriculum = [
+    "Databases Introduction. Data Definition and Datatypes",
+    "Basic CRUD",
+    "Built-in Functions",
+    "Data Aggregation",
+    "Table Relations",
+    "Subqueries and JOINS",
+    "Database Programmability and Transactions"
+]
 
 [[params.education]]
 title = "Java OOP October 2023"
-image = "/images/education/java-oop.jpeg"
+image = "/images/education/java-oop-1.jpg"
 certificateLink = "https://softuni.bg/certificates/details/200860/2cb65e96"
+description = "Object-oriented programming in Java covering encapsulation, inheritance, polymorphism, SOLID principles, and design patterns."
+curriculum = [
+    "Working with Abstraction",
+    "Encapsulation",
+    "Inheritance",
+    "Interfaces and Abstraction",
+    "Polymorphism",
+    "SOLID",
+    "Reflection and Annotation",
+    "Exceptions and Error Handling",
+    "Unit Testing",
+    "Test Driven Development",
+    "Design Patterns"
+]
 
 [[params.education]]
 title = "Java Advanced September 2023"
-image = "/images/education/java-advanced.jpeg"
+image = "/images/education/java-advanced-1.jpg"
 certificateLink = "https://softuni.bg/certificates/details/188586/ac6687dc"
+description = "Advanced Java programming covering data structures, collections, streams, functional programming, generics, and iterators."
+curriculum = [
+    "Stacks and Queues",
+    "Multidimensional Arrays",
+    "Sets and Maps Advanced",
+    "Streams, Files and Directories",
+    "Functional Programming",
+    "Defining Classes",
+    "Generics",
+    "Iterators and Comparators"
+]
 
 [[params.education]]
 title = "Java Fudnamentals May 2023"
-image = "/images/education/java-fundamentals.jpeg"
+image = "/images/education/java-fundamentals-1.jpg"
 certificateLink = "https://softuni.bg/certificates/details/179830/b9a08faf"
+description = "Foundational Java programming course covering basic syntax, data structures, OOP basics, problem solving, and web development fundamentals."
+curriculum = [
+    "Language Comparison",
+    "Basic Syntax, Conditional Statements and Loops",
+    "Git and GitHub",
+    "Data Types and Variables",
+    "HTTP Basics",
+    "Arrays",
+    "HTML & CSS Basics",
+    "Methods",
+    "Software Development Concepts - Part 1",
+    "List",
+    "Objects and Classes",
+    "Bitwise Operations",
+    "Associative Arrays",
+    "Software Development Concepts - Part 2",
+    "Text Processing",
+    "Problem Solving",
+    "Regular Expressions",
+    "Database Basics",
+    "QA Introduction",
+    "Basic Web Project"
+]
+
+[[params.education]]
+title = "Programming Basics"
+image = "/images/education/programming-basics-1.jpg"
+certificateLink = "https://softuni.bg/certificates/details/164203/08126670"
+description = "Learning the fundamentals of programming through hands-on problem solving: first steps in coding, building logic with conditional statements (including advanced conditions), and working with iterative control flow using for-loops, while-loops, and nested loops."
+curriculum = [
+    "First Steps In Coding",
+    "Conditional Statements",
+    "Conditional Statements Advanced",
+    "For-Loop",
+    "While-Loop",
+    "Nested Loops"
+]
 
 
 [menu]
