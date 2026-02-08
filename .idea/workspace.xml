@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f3c6146-75b2-43fd-9589-7d7c58b016d2" name="Changes" comment="fix - adjust spacing between project description and project card on Projects page for mobile" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AntoanYosifov&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AntoanYosifov/my-portfolio.git&quot;,
+    &quot;accountId&quot;: &quot;638f8099-5e77-4f33-b56d-7efb458da733&quot;
+  }
+}</component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2wnnlflbzz4RPY9BFXli32dZD30" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "git-widget-placeholder": "gh-pages",
+    "go.import.settings.migrated": "true",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/projects/my-portfolio",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\my-portfolio\static\images\education" />
+      <recent name="C:\projects\my-portfolio\static\images" />
+      <recent name="C:\projects\my-portfolio\static\images\projects" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\my-portfolio\static\images\education" />
+      <recent name="C:\projects\my-portfolio\layouts\_default" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="my-portfolio" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="my-portfolio" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="my-portfolio" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="my-portfolio" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f3c6146-75b2-43fd-9589-7d7c58b016d2" name="Changes" comment="test change to about.md" />
+      <created>1746686359291</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746686359291</updated>
+      <workItem from="1746686362645" duration="948000" />
+      <workItem from="1746687330822" duration="6246000" />
+      <workItem from="1746787303158" duration="271000" />
+      <workItem from="1746787593648" duration="18000" />
+      <workItem from="1746787660982" duration="28000" />
+      <workItem from="1746787943624" duration="84000" />
+      <workItem from="1746788043167" duration="67000" />
+      <workItem from="1746788144290" duration="148000" />
+      <workItem from="1746788315853" duration="1179000" />
+      <workItem from="1746789543926" duration="144000" />
+      <workItem from="1746789717003" duration="267000" />
+      <workItem from="1746790044648" duration="170000" />
+      <workItem from="1746790308568" duration="446000" />
+      <workItem from="1746790770045" duration="10482000" />
+      <workItem from="1746854266673" duration="12419000" />
+      <workItem from="1747116343156" duration="1535000" />
+      <workItem from="1747117909776" duration="9727000" />
+      <workItem from="1747158250170" duration="4813000" />
+      <workItem from="1747248455631" duration="162000" />
+      <workItem from="1747986465547" duration="1082000" />
+      <workItem from="1756449917775" duration="3460000" />
+      <workItem from="1757839865331" duration="10140000" />
+      <workItem from="1757919908158" duration="2937000" />
+      <workItem from="1758432167294" duration="152000" />
+      <workItem from="1758462103525" duration="21000" />
+      <workItem from="1761040846344" duration="1312000" />
+      <workItem from="1765621714057" duration="4615000" />
+      <workItem from="1766236956951" duration="4175000" />
+      <workItem from="1766297887224" duration="47000" />
+      <workItem from="1767270085694" duration="10820000" />
+      <workItem from="1767433783291" duration="2141000" />
+      <workItem from="1767441222869" duration="25000" />
+      <workItem from="1770459323315" duration="4823000" />
+      <workItem from="1770542772329" duration="556000" />
+    </task>
+    <task id="LOCAL-00001" summary="fix deploy.ps1">
+      <option name="closed" value="true" />
+      <created>1746687769903</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746687769903</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix config.toml">
+      <option name="closed" value="true" />
+      <created>1746688392153</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746688392153</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix config.toml">
+      <option name="closed" value="true" />
+      <created>1746688598815</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746688598815</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix config.toml">
+      <option name="closed" value="true" />
+      <created>1746688826541</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746688826541</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix config.toml">
+      <option name="closed" value="true" />
+      <created>1746689204985</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746689204985</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix config.toml">
+      <option name="closed" value="true" />
+      <created>1746689613599</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1746689613599</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix config.toml &amp; experience.md">
+      <option name="closed" value="true" />
+      <created>1746689910749</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1746689910749</updated>
+    </task>
+    <task id="LOCAL-00008" summary=" projects.md">
+      <option name="closed" value="true" />
+      <created>1746690118443</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1746690118443</updated>
+    </task>
+    <task id="LOCAL-00009" summary=" update &quot;I work with&quot; front page section">
+      <option name="closed" value="true" />
+      <created>1746857294553</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1746857294553</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update index page projects section">
+      <option name="closed" value="true" />
+      <created>1747118073151</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1747118073151</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update education page">
+      <option name="closed" value="true" />
+      <created>1747126645067</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1747126645067</updated>
+    </task>
+    <task id="LOCAL-00012" summary="finish portfolio version 1.0">
+      <option name="closed" value="true" />
+      <created>1747161152977</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1747161152977</updated>
+    </task>
+    <task id="LOCAL-00013" summary="remove unnecessary params in config.toml">
+      <option name="closed" value="true" />
+      <created>1747161273649</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1747161273649</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update education.html">
+      <option name="closed" value="true" />
+      <created>1747163089602</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1747163089602</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update education section">
+      <option name="closed" value="true" />
+      <created>1756450861575</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1756450861575</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update education section - Angular course completed">
+      <option name="closed" value="true" />
+      <created>1756553310855</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1756553310855</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update projects section, about, what I work with + add avatar">
+      <option name="closed" value="true" />
+      <created>1757847808743</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1757847808743</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update index.html">
+      <option name="closed" value="true" />
+      <created>1757848626218</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1757848626218</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update index.html">
+      <option name="closed" value="true" />
+      <created>1765636584718</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1765636584718</updated>
+    </task>
+    <task id="LOCAL-00020" summary="chore - update baseUrl in config.toml">
+      <option name="closed" value="true" />
+      <created>1765636875469</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1765636875469</updated>
+    </task>
+    <task id="LOCAL-00021" summary="refactor - remove duplicate nav links. Remove Experience entirely">
+      <option name="closed" value="true" />
+      <created>1766239498635</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1766239498635</updated>
+    </task>
+    <task id="LOCAL-00022" summary="chore - update About content">
+      <option name="closed" value="true" />
+      <created>1766243809037</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1766243809037</updated>
+    </task>
+    <task id="LOCAL-00023" summary="chore - update home page (me) description">
+      <option name="closed" value="true" />
+      <created>1766244331338</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1766244331338</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat - update to my latest relevant information and achievements">
+      <option name="closed" value="true" />
+      <created>1770459520332</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1770459520332</updated>
+    </task>
+    <task id="LOCAL-00025" summary="fix - add missing image for House of Chaos project">
+      <option name="closed" value="true" />
+      <created>1770461540592</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1770461540593</updated>
+    </task>
+    <task id="LOCAL-00026" summary="fix - adjust responsive css on Projects page for mobile">
+      <option name="closed" value="true" />
+      <created>1770463125212</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1770463125212</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fix - remove dotted list from House Of Chaos card on projects page for mobile">
+      <option name="closed" value="true" />
+      <created>1770463981656</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1770463981656</updated>
+    </task>
+    <task id="LOCAL-00028" summary="fix - remove 'Full stack antique e-commerce platform' text from House Of Chaos card on projects page for mobile">
+      <option name="closed" value="true" />
+      <created>1770464409700</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1770464409700</updated>
+    </task>
+    <task id="LOCAL-00029" summary="fix - add border around email fields on Contact page">
+      <option name="closed" value="true" />
+      <created>1770465617060</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1770465617060</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fix - adjust spacing between project description and project card on Projects page for mobile">
+      <option name="closed" value="true" />
+      <created>1770542918043</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1770542918044</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix deploy.ps1" />
+    <MESSAGE value="fix config.toml" />
+    <MESSAGE value="fix config.toml &amp; experience.md" />
+    <MESSAGE value=" projects.md" />
+    <MESSAGE value=" update &quot;I work with&quot; front page section" />
+    <MESSAGE value="update index page projects section" />
+    <MESSAGE value="update education page" />
+    <MESSAGE value="finish portfolio version 1.0" />
+    <MESSAGE value="remove unnecessary params in config.toml" />
+    <MESSAGE value="update education.html" />
+    <MESSAGE value="update education section" />
+    <MESSAGE value="update education section - Angular course completed" />
+    <MESSAGE value="update projects section, about, what I work with + add avatar" />
+    <MESSAGE value="update index.html" />
+    <MESSAGE value="chore - update baseUrl in config.toml" />
+    <MESSAGE value="refactor - remove duplicate nav links. Remove Experience entirely" />
+    <MESSAGE value="chore - update About content" />
+    <MESSAGE value="chore - update home page (me) description" />
+    <MESSAGE value="feat - update to my latest relevant information and achievements" />
+    <MESSAGE value="fix - add missing image for House of Chaos project" />
+    <MESSAGE value="fix - adjust responsive css on Projects page for mobile" />
+    <MESSAGE value="fix - remove dotted list from House Of Chaos card on projects page for mobile" />
+    <MESSAGE value="fix - remove 'Full stack antique e-commerce platform' text from House Of Chaos card on projects page for mobile" />
+    <MESSAGE value="fix - add border around email fields on Contact page" />
+    <MESSAGE value="fix - adjust spacing between project description and project card on Projects page for mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix - adjust spacing between project description and project card on Projects page for mobile" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
