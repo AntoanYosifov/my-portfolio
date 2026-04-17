@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Projects description">
+        
+        <meta property="og:title" content="Projects - Antoan Yosifov">
+        <meta property="og:description" content="Projects description">
+        <meta property="og:url" content="https://antoanyosifov.com/projects/">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://antoanyosifov.com/website-image.png">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Projects - Antoan Yosifov">
+        <meta name="twitter:description" content="Projects description">
+        <meta name="twitter:image" content="https://antoanyosifov.com/website-image.png">
+        <title>Projects - Antoan Yosifov</title>
+        
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+        <link rel="manifest" href="../site.webmanifest">        
+        <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
+        <link rel="preload" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" as="style">
+        
+        
+        <style>
+            html, body {
+                background-color: #121212;
+                color: #f3f4f6;
+            }            
+            .border {
+                border-color: #374151;
+            }            
+            .carousel-item {
+                display: inline-block;
+                margin: 0 1rem;
+            }            
+            .flex {
+                display: flex;
+            }
+            .flex-col {
+                flex-direction: column;
+            }
+            
+            @media (min-width: 768px) {
+                .md\:flex-row {
+                    flex-direction: row;
+                }
+            }
+            
+            .tech-carousel {
+                overflow: hidden;
+                width: 100%;
+                padding: 1rem 0;
+            }
+            
+            .carousel-track {
+                white-space: nowrap;
+            }
+        </style>
+        
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+        <script>
+            
+            if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        </script>
+        <style>
+            :root {
+                color-scheme: dark;
+            }
+            
+            body {
+                @apply bg-[#121212] text-gray-100;
+            }
+
+            .tech-icon {
+                filter: grayscale(100%) brightness(200%);
+                transition: all 0.3s ease;
+            }
+            .tech-icon:hover {
+                filter: none;
+            }
+            
+            @keyframes scroll {
+                0% {
+                    transform: translateX(0);
+                }
+                100% {
+                    transform: translateX(-100%);
+                }
+            }
+            
+            .tech-carousel {
+                width: 100%;
+                padding: 1rem 0;
+            }
+            
+            .tech-track {
+                width: fit-content;
+                animation: scroll 20s linear infinite;
+            }
+            
+            .tech-track:hover {
+                animation-play-state: paused;
+            }
+            
+            .tech-slide {
+                float: left;
+            }
+        </style>
+    </head>
+    <body class="min-h-screen bg-[#121212] text-gray-100">
+        
+<head>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C0RTF18BT4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-C0RTF18BT4');
+    </script>
+    
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+    </style>
+</head>
+<header class="py-6 relative">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            <div class="flex justify-between items-center">
+                <a href="https://antoanyosifov.com/" class="text-xl font-bold text-white hover:text-gray-300 transition-colors duration-300">
+                    Antoan Yosifov
+                </a>
+                
+                <button id="mobile-menu-button" class="md:hidden text-gray-300 hover:text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>            
+            
+            <nav class="hidden md:flex flex-wrap justify-center items-center gap-4 md:gap-6">
+                
+                
+                <a href="https://antoanyosifov.com/about/" class="inline-block text-lg text-gray-300 hover:text-white transition-colors duration-300 ">About</a>
+                
+                <a href="https://antoanyosifov.com/projects/" class="inline-block text-lg text-gray-300 hover:text-white transition-colors duration-300 text-white font-semibold">Projects</a>
+                
+                <a href="https://antoanyosifov.com/education/" class="inline-block text-lg text-gray-300 hover:text-white transition-colors duration-300 ">Education</a>
+                
+                <a href="https://antoanyosifov.com/contact/" class="inline-block text-lg text-gray-300 hover:text-white transition-colors duration-300 ">Contact</a>
+                
+            </nav>
+            <div class="hidden md:flex justify-end">
+                <div class="flex items-center">
+                    <span class="text-lg text-gray-300 mr-2">Local Time:</span>
+                    <div id="local-time" class="text-lg text-gray-300"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div id="mobile-menu" class="fixed inset-0 bg-black bg-opacity-90 z-50 hidden transition-all duration-300">
+        <div class="flex flex-col h-full">
+            <div class="flex justify-between items-center p-6 border-b border-gray-800">
+                <span class="text-xl font-bold text-white">Menu</span>
+                <button id="mobile-menu-close" class="text-gray-300 hover:text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+            <nav class="flex flex-col p-6 space-y-4">
+                
+                <a href="https://antoanyosifov.com/about/" class="text-xl text-gray-300 hover:text-white transition-colors duration-300 ">About</a>
+                
+                <a href="https://antoanyosifov.com/projects/" class="text-xl text-gray-300 hover:text-white transition-colors duration-300 text-white font-semibold">Projects</a>
+                
+                <a href="https://antoanyosifov.com/education/" class="text-xl text-gray-300 hover:text-white transition-colors duration-300 ">Education</a>
+                
+                <a href="https://antoanyosifov.com/contact/" class="text-xl text-gray-300 hover:text-white transition-colors duration-300 ">Contact</a>
+                
+            </nav>
+            <div class="mt-auto p-6 border-t border-gray-800">
+                <div class="flex items-center justify-center">
+                    <span class="text-lg text-gray-300 mr-2">Local Time:</span>
+                    <div id="mobile-local-time" class="text-lg text-gray-300"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<script>
+    
+    function updateLocalTime() {
+        const timeElements = document.querySelectorAll('#local-time, #mobile-local-time');
+        timeElements.forEach(element => {
+            if (element) {
+                const now = new Date();
+                const timeString = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+                element.textContent = timeString;
+            }
+        });
+    }
+    updateLocalTime();
+    setInterval(updateLocalTime, 1000);
+
+    
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenuClose = document.getElementById('mobile-menu-close');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    function toggleMobileMenu() {
+        const isHidden = mobileMenu.classList.contains('hidden');
+        if (isHidden) {
+            mobileMenu.classList.remove('hidden');
+            document.body.style.overflow = 'hidden'; 
+        } else {
+            mobileMenu.classList.add('hidden');
+            document.body.style.overflow = ''; 
+        }
+    }
+
+    mobileMenuButton.addEventListener('click', toggleMobileMenu);
+    mobileMenuClose.addEventListener('click', toggleMobileMenu);
+
+    
+    const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+    mobileMenuLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            toggleMobileMenu();
+        });
+    });
+
+    
+    const themeToggleBtn = document.getElementById('theme-toggle');
+    if (themeToggleBtn) {
+        const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+        const themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+
+        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            themeToggleLightIcon.classList.remove('hidden');
+            themeToggleDarkIcon.classList.add('hidden');
+        } else {
+            themeToggleLightIcon.classList.add('hidden');
+            themeToggleDarkIcon.classList.remove('hidden');
+        }
+
+        themeToggleBtn.addEventListener('click', function() {
+            themeToggleDarkIcon.classList.toggle('hidden');
+            themeToggleLightIcon.classList.toggle('hidden');
+
+            if (localStorage.getItem('color-theme')) {
+                if (localStorage.getItem('color-theme') === 'light') {
+                    document.documentElement.classList.add('dark');
+                    localStorage.setItem('color-theme', 'dark');
+                } else {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.setItem('color-theme', 'light');
+                }
+            } else {
+                if (document.documentElement.classList.contains('dark')) {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.setItem('color-theme', 'light');
+                } else {
+                    document.documentElement.classList.add('dark');
+                    localStorage.setItem('color-theme', 'dark');
+                }
+            }
+        });
+    }
+</script> 
+        <main>
+            
+<div class="w-full md:w-3/4 lg:w-1/2 mx-auto px-4 py-12">
+    <div class="mb-0"></div>
+    <section id="house-of-chaos" class="mb-6 md:mb-8">
+    <div class="grid grid-cols-1 gap-6 md:gap-8 max-w-3xl mx-auto">
+            <p class="block md:hidden text-sm text-gray-300 mb-1">
+                House of Chaos is a production-deployed full-stack antiques e-commerce platform. Angular SPA served from a private S3 bucket behind CloudFront. Spring Boot REST API and a dedicated reviews microservice run as Docker containers on EC2 — nginx handles SSL termination, containers communicate over a named Docker network. Data on RDS MySQL. Stateless JWT auth with HttpOnly refresh tokens, role-based access, Cloudinary for media. Fully automated CI/CD via GitHub Actions: OIDC-authenticated deploys to AWS, Docker images built and pushed to GHCR, secrets fetched at runtime from SSM Parameter Store. No SSH keys, no static credentials anywhere in the pipeline.
+            </p>
+            <div class="project-card relative overflow-hidden rounded-lg bg-[#121212] border border-gray-700 transition-all duration-300 group">
+                <div class="aspect-w-16 aspect-h-9 overflow-hidden relative">
+                    <div class="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 z-10"></div>
+                    <img src="../images/projects/HoC.png" alt="House of Chaos" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/70 to-black/30 opacity-90 z-20"></div>
+
+                    <div class="absolute inset-0 z-30 p-4 pb-3 md:p-6 md:pb-4 flex flex-col justify-end transform transition-transform duration-500 translate-y-0 group-hover:translate-y-[-20px]">
+                        <h3 class="text-xl md:text-2xl font-bold mb-1.5 md:mb-2 text-white line-clamp-2">House of Chaos</h3>
+                        <p class="hidden md:block text-xs md:text-sm text-blue-200/90 uppercase tracking-wide mb-2">Full stack antique e-commerce platform</p>
+                        <div class="flex flex-wrap gap-1 md:gap-2 mb-1.5 md:mb-3">
+                            <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100">Angular</span>
+                            <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100">Spring Boot</span>
+                            <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100">REST API</span>
+                            <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100">MySQL</span>
+                            <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100">JWT</span>
+                            <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100">Cloudinary</span>
+                            <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100">AWS</span>
+                            <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100">Docker</span>
+                            <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100">GitHub Actions</span>
+                        </div>
+                        <p class="hidden md:block text-sm text-gray-300 mb-3 line-clamp-3 md:line-clamp-4">
+                            House of Chaos is a production-deployed full-stack antiques e-commerce platform. Angular SPA served from a private S3 bucket behind CloudFront. Spring Boot REST API and a dedicated reviews microservice run as Docker containers on EC2 — nginx handles SSL termination, containers communicate over a named Docker network. Data on RDS MySQL. Stateless JWT auth with HttpOnly refresh tokens, role-based access, Cloudinary for media. Fully automated CI/CD via GitHub Actions: OIDC-authenticated deploys to AWS, Docker images built and pushed to GHCR, secrets fetched at runtime from SSM Parameter Store. No SSH keys, no static credentials anywhere in the pipeline.
+                        </p>
+                        <div class="capstone-details-links-row capstone-details-links-row--hoc">
+                            <a href="https://houseofchaoss.com" target="_blank" rel="noopener noreferrer" class="capstone-repo-link capstone-repo-link--compact">
+                                Live Demo
+                                <svg xmlns="http://www.w3.org/2000/svg" class="capstone-link-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M14 5h5v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 14L19 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M19 14v5H5V5h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/AntoanYosifov/house-of-chaos-main" target="_blank" rel="noopener noreferrer" class="capstone-repo-link capstone-repo-link--compact">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="capstone-repo-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path fill="currentColor" d="M12 1.75a10.25 10.25 0 0 0-3.24 19.98c.52.1.72-.22.72-.5v-1.73c-2.94.64-3.56-1.26-3.56-1.26c-.48-1.22-1.17-1.55-1.17-1.55c-.96-.66.07-.65.07-.65c1.06.07 1.62 1.1 1.62 1.1c.95 1.63 2.5 1.16 3.11.89c.1-.69.37-1.16.67-1.43c-2.35-.27-4.82-1.17-4.82-5.2c0-1.15.41-2.1 1.09-2.84c-.11-.27-.47-1.35.1-2.82c0 0 .88-.28 2.88 1.08a9.9 9.9 0 0 1 5.24 0c2-1.36 2.88-1.08 2.88-1.08c.57 1.47.21 2.55.1 2.82c.68.74 1.09 1.69 1.09 2.84c0 4.04-2.47 4.93-4.83 5.2c.38.33.72.98.72 1.98v2.94c0 .28.2.6.72.5A10.25 10.25 0 0 0 12 1.75Z"/>
+                                </svg>
+                                HoC Backend
+                                <svg xmlns="http://www.w3.org/2000/svg" class="capstone-link-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M14 5h5v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 14L19 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M19 14v5H5V5h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/AntoanYosifov/house-of-chaos-web" target="_blank" rel="noopener noreferrer" class="capstone-repo-link capstone-repo-link--compact">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="capstone-repo-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path fill="currentColor" d="M12 1.75a10.25 10.25 0 0 0-3.24 19.98c.52.1.72-.22.72-.5v-1.73c-2.94.64-3.56-1.26-3.56-1.26c-.48-1.22-1.17-1.55-1.17-1.55c-.96-.66.07-.65.07-.65c1.06.07 1.62 1.1 1.62 1.1c.95 1.63 2.5 1.16 3.11.89c.1-.69.37-1.16.67-1.43c-2.35-.27-4.82-1.17-4.82-5.2c0-1.15.41-2.1 1.09-2.84c-.11-.27-.47-1.35.1-2.82c0 0 .88-.28 2.88 1.08a9.9 9.9 0 0 1 5.24 0c2-1.36 2.88-1.08 2.88-1.08c.57 1.47.21 2.55.1 2.82c.68.74 1.09 1.69 1.09 2.84c0 4.04-2.47 4.93-4.83 5.2c.38.33.72.98.72 1.98v2.94c0 .28.2.6.72.5A10.25 10.25 0 0 0 12 1.75Z"/>
+                                </svg>
+                                HoC Frontend
+                                <svg xmlns="http://www.w3.org/2000/svg" class="capstone-link-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M14 5h5v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 14L19 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M19 14v5H5V5h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/AntoanYosifov/review-microservice" target="_blank" rel="noopener noreferrer" class="capstone-repo-link capstone-repo-link--compact">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="capstone-repo-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path fill="currentColor" d="M12 1.75a10.25 10.25 0 0 0-3.24 19.98c.52.1.72-.22.72-.5v-1.73c-2.94.64-3.56-1.26-3.56-1.26c-.48-1.22-1.17-1.55-1.17-1.55c-.96-.66.07-.65.07-.65c1.06.07 1.62 1.1 1.62 1.1c.95 1.63 2.5 1.16 3.11.89c.1-.69.37-1.16.67-1.43c-2.35-.27-4.82-1.17-4.82-5.2c0-1.15.41-2.1 1.09-2.84c-.11-.27-.47-1.35.1-2.82c0 0 .88-.28 2.88 1.08a9.9 9.9 0 0 1 5.24 0c2-1.36 2.88-1.08 2.88-1.08c.57 1.47.21 2.55.1 2.82c.68.74 1.09 1.69 1.09 2.84c0 4.04-2.47 4.93-4.83 5.2c.38.33.72.98.72 1.98v2.94c0 .28.2.6.72.5A10.25 10.25 0 0 0 12 1.75Z"/>
+                                </svg>
+                                Microservice
+                                <svg xmlns="http://www.w3.org/2000/svg" class="capstone-link-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M14 5h5v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 14L19 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M19 14v5H5V5h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="flex flex-col max-w-3xl mx-auto">
+        
+        <div class="project-card-spacing project-anchor" id="project-travelhub">
+            <p class="block md:hidden text-sm text-gray-300 mb-6">TravelHub is a real-time travel app built with Angular and Firebase where users discover destinations, like each once, and save a personal “want-to-visit” list. Secure auth, profile management, and ownership rules power a smooth, reactive UI.</p>
+        <div class="project-card relative overflow-hidden rounded-lg bg-[#121212] border border-gray-700 transition-all duration-300 group">
+            <div class="aspect-w-16 aspect-h-9 overflow-hidden relative">
+                <div class="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 z-10"></div>
+                <img src="../images/projects/TravelHub.png" alt="TravelHub" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-60 z-20"></div>
+
+                
+                <div class="absolute inset-0 z-30 p-4 pb-3 md:p-6 md:pb-4 flex flex-col justify-end transform transition-transform duration-500 translate-y-0 group-hover:translate-y-[-20px]">
+                    <h3 class="text-xl md:text-2xl font-bold mb-1.5 md:mb-2 text-white line-clamp-2">TravelHub</h3>
+                    <div class="flex flex-wrap gap-1 md:gap-2 mb-1.5 md:mb-3">
+                        
+                        
+                        <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100">Angular (Signals)</span>
+                        
+                        <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100"> TypeScript</span>
+                        
+                        <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100"> RxJS</span>
+                        
+                        <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100"> HTML</span>
+                        
+                        <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100"> CSS</span>
+                        
+                        <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100"> Firebase — Firestore</span>
+                        
+                        <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100"> Authentication</span>
+                        
+                        <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100"> GitHub Pages</span>
+                        
+                    </div>
+                    <p class="hidden md:block text-sm text-gray-300 mb-3 line-clamp-3 md:line-clamp-4">TravelHub is a real-time travel app built with Angular and Firebase where users discover destinations, like each once, and save a personal “want-to-visit” list. Secure auth, profile management, and ownership rules power a smooth, reactive UI.</p>
+
+                    <div class="capstone-details-links-row">
+                        <a href="https://github.com/AntoanYosifov/travel-hub" target="_blank" class="capstone-repo-link capstone-repo-link--compact">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="capstone-repo-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor" d="M12 1.75a10.25 10.25 0 0 0-3.24 19.98c.52.1.72-.22.72-.5v-1.73c-2.94.64-3.56-1.26-3.56-1.26c-.48-1.22-1.17-1.55-1.17-1.55c-.96-.66.07-.65.07-.65c1.06.07 1.62 1.1 1.62 1.1c.95 1.63 2.5 1.16 3.11.89c.1-.69.37-1.16.67-1.43c-2.35-.27-4.82-1.17-4.82-5.2c0-1.15.41-2.1 1.09-2.84c-.11-.27-.47-1.35.1-2.82c0 0 .88-.28 2.88 1.08a9.9 9.9 0 0 1 5.24 0c2-1.36 2.88-1.08 2.88-1.08c.57 1.47.21 2.55.1 2.82c.68.74 1.09 1.69 1.09 2.84c0 4.04-2.47 4.93-4.83 5.2c.38.33.72.98.72 1.98v2.94c0 .28.2.6.72.5A10.25 10.25 0 0 0 12 1.75Z"/>
+                            </svg>
+                            Source Code
+                            <svg xmlns="http://www.w3.org/2000/svg" class="capstone-link-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <path d="M14 5h5v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10 14L19 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19 14v5H5V5h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    
+                        <a href="https://antoanyosifov.github.io/travel-hub/" target="_blank" class="capstone-repo-link capstone-repo-link--compact">
+                            Live Demo
+                            <svg xmlns="http://www.w3.org/2000/svg" class="capstone-link-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <path d="M14 5h5v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10 14L19 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19 14v5H5V5h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project-card-spacing project-anchor" id="project-braindissecting">
+            <p class="block md:hidden text-sm text-gray-300 mb-6">A web platform that aggregates, moderates, and curates open‑access scientific articles via the DOAJ API, with built‑in role‑based access control for admins, moderators, and users.</p>
+        <div class="project-card relative overflow-hidden rounded-lg bg-[#121212] border border-gray-700 transition-all duration-300 group">
+            <div class="aspect-w-16 aspect-h-9 overflow-hidden relative">
+                <div class="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 z-10"></div>
+                <img src="../images/projects/BrainDissecting.png" alt="BrainDissecting" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-60 z-20"></div>
+
+                
+                <div class="absolute inset-0 z-30 p-4 pb-3 md:p-6 md:pb-4 flex flex-col justify-end transform transition-transform duration-500 translate-y-0 group-hover:translate-y-[-20px]">
+                    <h3 class="text-xl md:text-2xl font-bold mb-1.5 md:mb-2 text-white line-clamp-2">BrainDissecting</h3>
+                    <div class="flex flex-wrap gap-1 md:gap-2 mb-1.5 md:mb-3">
+                        
+                        
+                        <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100">Java21</span>
+                        
+                        <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100"> SpringBoot3.3.2</span>
+                        
+                        <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100"> Spring Security</span>
+                        
+                        <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100"> Spring Data JPA</span>
+                        
+                        <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100"> Hibernate/JPA</span>
+                        
+                        <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100"> Thymeleaf</span>
+                        
+                        <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100"> Bootstrap5</span>
+                        
+                        <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100"> DOAJ API</span>
+                        
+                        <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100"> MySQL</span>
+                        
+                        <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100"> Docker</span>
+                        
+                        <span class="px-1.5 md:px-2 py-0.5 bg-black/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-gray-100"> Railway (Cloud)</span>
+                        
+                    </div>
+                    <p class="hidden md:block text-sm text-gray-300 mb-3 line-clamp-3 md:line-clamp-4">A web platform that aggregates, moderates, and curates open‑access scientific articles via the DOAJ API, with built‑in role‑based access control for admins, moderators, and users.</p>
+
+                    <div class="capstone-details-links-row">
+                        <a href="https://github.com/AntoanYosifov/BrainDissecting-SSR-version" target="_blank" class="capstone-repo-link capstone-repo-link--compact">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="capstone-repo-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor" d="M12 1.75a10.25 10.25 0 0 0-3.24 19.98c.52.1.72-.22.72-.5v-1.73c-2.94.64-3.56-1.26-3.56-1.26c-.48-1.22-1.17-1.55-1.17-1.55c-.96-.66.07-.65.07-.65c1.06.07 1.62 1.1 1.62 1.1c.95 1.63 2.5 1.16 3.11.89c.1-.69.37-1.16.67-1.43c-2.35-.27-4.82-1.17-4.82-5.2c0-1.15.41-2.1 1.09-2.84c-.11-.27-.47-1.35.1-2.82c0 0 .88-.28 2.88 1.08a9.9 9.9 0 0 1 5.24 0c2-1.36 2.88-1.08 2.88-1.08c.57 1.47.21 2.55.1 2.82c.68.74 1.09 1.69 1.09 2.84c0 4.04-2.47 4.93-4.83 5.2c.38.33.72.98.72 1.98v2.94c0 .28.2.6.72.5A10.25 10.25 0 0 0 12 1.75Z"/>
+                            </svg>
+                            Source Code
+                            <svg xmlns="http://www.w3.org/2000/svg" class="capstone-link-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <path d="M14 5h5v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10 14L19 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19 14v5H5V5h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    
+                        <a href="https://braindissecting-ssr-version-production.up.railway.app/" target="_blank" class="capstone-repo-link capstone-repo-link--compact">
+                            Live Demo
+                            <svg xmlns="http://www.w3.org/2000/svg" class="capstone-link-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <path d="M14 5h5v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10 14L19 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19 14v5H5V5h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+<style>
+    .project-card {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        background: linear-gradient(to bottom right, rgba(30, 41, 59, 0.5), rgba(30, 41, 59, 0.8));
+        backdrop-filter: blur(10px);
+    }
+
+    .project-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+        border-color: rgba(59, 130, 246, 0.5);
+    }
+
+    .project-card-spacing + .project-card-spacing {
+        margin-top: 2rem;
+    }
+
+    @media (min-width: 768px) {
+        .project-card-spacing + .project-card-spacing {
+            margin-top: 2.5rem;
+        }
+    }
+
+    .aspect-w-16 {
+        position: relative;
+        padding-bottom: 56.25%;
+    }
+
+    .aspect-w-16 > img {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        object-fit: cover;
+        filter: saturate(1.1) contrast(1.1);
+    }
+
+    @media (max-width: 768px) {
+        .project-card:hover {
+            transform: none;
+        }
+
+        .project-card .group-hover\:translate-y-\[-20px\] {
+            transform: translateY(-10px);
+        }
+
+        .capstone-details-links-row--hoc {
+            flex-wrap: nowrap;
+            gap: 0.35rem;
+        }
+
+        .capstone-details-links-row--hoc .capstone-repo-link--compact {
+            font-size: 0.7rem;
+            padding: 0.25rem 0.4rem;
+            gap: 0.3rem;
+        }
+
+        .capstone-details-links-row--hoc .capstone-repo-icon,
+        .capstone-details-links-row--hoc .capstone-link-arrow {
+            width: 14px;
+            height: 14px;
+        }
+    }
+
+    .capstone-details-links-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.75rem;
+    }
+
+
+    .capstone-repo-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        padding: 0.4rem 0.75rem;
+        border-radius: 0.6rem;
+        border: 1px solid rgba(59, 130, 246, 0.45);
+        background: rgba(59, 130, 246, 0.12);
+        color: #dbeafe;
+        font-size: 0.95rem;
+        transition: all 0.2s ease;
+        text-decoration: none;
+    }
+
+    .capstone-repo-link:hover {
+        border-color: rgba(96, 165, 250, 0.8);
+        background: rgba(59, 130, 246, 0.2);
+        color: #ffffff;
+        transform: translateY(-1px);
+    }
+
+    .capstone-repo-icon {
+        width: 16px;
+        height: 16px;
+        color: #ffffff;
+        flex-shrink: 0;
+    }
+
+    .capstone-link-arrow {
+        width: 16px;
+        height: 16px;
+        color: #e5e7eb;
+        opacity: 1;
+        transition: transform 0.2s ease;
+    }
+
+    .capstone-repo-link:hover .capstone-link-arrow {
+        transform: translateX(3px);
+    }
+
+    .capstone-mini-list {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 0.75rem 0;
+    }
+
+    .capstone-mini-list li {
+        position: relative;
+        padding-left: 1rem;
+        margin-bottom: 0.35rem;
+        color: #e2e8f0;
+    }
+
+    .capstone-mini-list li::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: #60a5fa;
+    }
+
+    .capstone-repo-link--compact {
+        font-size: 0.85rem;
+        padding: 0.35rem 0.6rem;
+    }
+
+    .project-anchor {
+        scroll-margin-top: 90px;
+    }
+
+    #house-of-chaos {
+        scroll-margin-top: 120px;
+    }
+</style>
+
+        </main>
+        
+<footer class="mt-12 text-center">
+    <div class="max-w-3xl mx-auto">
+        <div class="border-t border-gray-800 pt-5">
+            <div class="flex flex-col items-center justify-center gap-2">                
+                <p class="text-gray-500 text-xm ">© 2026 Antoan Yosifov</p>
+                <p class="text-gray-500 text-xm pb-4">Built using <a href="https://gohugo.io/" target="_blank" class="animated-link text-gray-400 hover:text-gray-200">Hugo</a>. Take a look at my <a href=https://github.com/AntoanYosifov target="_blank" class="animated-link text-gray-400 hover:text-gray-200">GitHub</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<style>
+    .animated-link {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+    }
+    
+    .animated-link::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 1px;
+        bottom: -1px;
+        left: 0;
+        background-color: #ffffff;
+        transition: width 0.3s ease-in-out;
+    }
+    
+    .animated-link:hover::after {
+        width: 100%;
+    }
+</style> 
+    </body>
+</html> 
